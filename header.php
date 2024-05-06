@@ -76,8 +76,8 @@
                                     <!-- start attribute navigation -->
                                     <div class="attr-nav align-items-xl-center ms-xl-auto main-font">
                                         <ul>
-                                            <li class="search"><a href="#!"><i class="fas fa-search"></i></a></li>
-                                            <li class="d-none d-xl-inline-block"><a href="" class="butn text-white md"><span>Free Quote</span></a></li>
+                                            <!-- <li class="search"><a href="./blog.php"><i class="fas fa-search"></i></a></li> -->
+                                            <li class="d-none d-xl-inline-block"><a href="./contact.php" class="butn text-white md"><span>Free Quote</span></a></li>
                                         </ul>
                                     </div>
                                     <!-- end attribute navigation -->

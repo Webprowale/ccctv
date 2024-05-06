@@ -369,8 +369,6 @@
             <div class="d-none d-lg-inline-block p-2 border border-width-2 border-secondary position-absolute rounded-circle top-5 left-25 ani-left-right"></div>
         </section>
 
-        <!-- FOOTER
-        ================================================== -->
        <!-- FOOTER
         ================================================== -->
         <?php require "./footer.php"; ?>

@@ -13,7 +13,7 @@
                             <li><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
                             <li><a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a></li>
                             <li><a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a></li>
-                            <li><a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                            <li><a href="https://www.instagram.com/neyootee?igsh=YzljYTK1" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
                         </ul>
 
                     </div>

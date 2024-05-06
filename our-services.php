@@ -11,7 +11,7 @@
                     <div class="col-md-12">
                         <h1>Our Services</h1>
                         <ul>
-                            <li><a href="index.html">Home</a></li>
+                            <li><a href="./index.php">Home</a></li>
                             <li>Our Services</li>
                         </ul>                    
                     </div>
@@ -153,7 +153,7 @@
                                 </div>
                                 <h3 class="mb-3 h4"><a href="finger-print-access.html">Finger Print Access</a></h3>
                                 <p class="mb-3">We specialize in planning, installation, and repair of full range security.</p>
-                                <a href="finger-print-access.html">Read More &#10230;</a>
+                                <!-- <a href="finger-print-access.html">Read More &#10230;</a> -->
                             </div>
                         </div>
                     </div>
@@ -168,7 +168,7 @@
                                 </div>
                                 <h3 class="mb-3 h4"><a href="cctv-installation.html">CCTV Installation</a></h3>
                                 <p class="mb-3">We specialize in planning, installation, and repair of full range security.</p>
-                                <a href="cctv-installation.html">Read More &#10230;</a>
+                                <!-- <a href="cctv-installation.html">Read More &#10230;</a> -->
                             </div>
                         </div>
                     </div>
@@ -198,7 +198,7 @@
                                 </div>
                                 <h3 class="mb-3 h4"><a href="wifi-camera-security.html">Wifi Camera Security</a></h3>
                                 <p class="mb-3">We specialize in planning, installation, and repair of full range security.</p>
-                                <a href="wifi-camera-security.html">Read More &#10230;</a>
+                                <!-- <a href="wifi-camera-security.html">Read More &#10230;</a> -->
                             </div>
                         </div>
                     </div>
@@ -213,7 +213,7 @@
                                 </div>
                                 <h3 class="mb-3 h4"><a href="video-analytics-system.html">Video Analytics</a></h3>
                                 <p class="mb-3">We specialize in planning, installation, and repair of full range security.</p>
-                                <a href="video-analytics-system.html">Read More &#10230;</a>
+                                <!-- <a href="video-analytics-system.html">Read More &#10230;</a> -->
                             </div>
                         </div>
                     </div>
@@ -228,7 +228,7 @@
                                 </div>
                                 <h3 class="mb-3 h4"><a href="home-automation.html">Home Automation</a></h3>
                                 <p class="mb-3">We specialize in planning, installation, and repair of full range security.</p>
-                                <a href="home-automation.html">Read More &#10230;</a>
+                                <!-- <a href="home-automation.html">Read More &#10230;</a> -->
                             </div>
                         </div>
                     </div>
@@ -246,7 +246,7 @@
                     </div>
                     <div class="col-lg-5 wow fadeIn mt-3" data-wow-delay="200ms">
                         <div class="text-start text-lg-end">
-                            <a class="butn" href="contact.html">
+                            <a class="butn" href="./contact.php">
                                 <span class="text-btn">Discover More Info</span>
                             </a>
                         </div>
@@ -315,7 +315,7 @@
                                     <li>General Repair</li>
                                     <li class="opacity6">Fixing Faulty Ring</li>
                                     <li class="opacity6">24/7 Support</li>
-                                </ul> <a href="contact.html" class="butn mt-1-9">Buy Now</a>
+                                </ul> <a href="./contact.php" class="butn mt-1-9">Buy Now</a>
                             </div>
                         </div>
                     </div>
@@ -343,7 +343,7 @@
                                     <li>Fixing Faulty Ring</li>
                                     <li>24/7 Support</li>
                                 </ul>
-                                <a href="contact.html" class="butn mt-1-9">Buy Now</a>
+                                <a href="./contact.php" class="butn mt-1-9">Buy Now</a>
                             </div>
                         </div>
                     </div>
@@ -370,7 +370,7 @@
                                     <li>General Repair</li>
                                     <li>Fixing Faulty Ring</li>
                                     <li class="opacity6">24/7 Support</li>
-                                </ul> <a href="contact.html" class="butn mt-1-9">Buy Now</a>
+                                </ul> <a href="./contact.php" class="butn mt-1-9">Buy Now</a>
                             </div>
                         </div>
                     </div>

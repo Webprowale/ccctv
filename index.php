@@ -11,9 +11,9 @@
                 <div class="d-table-cell align-middle">
                     <div class="row align-items-center">
                         <div class="col-md-10 col-lg-9 col-xl-7">
-                            <span class="text-secondary mb-3 sub-title">Welcome to Monity</span>
+                            <span class="text-secondary mb-3 sub-title">Welcome to Neyoo & Tee</span>
                             <h1 class="text-white display-12 display-sm-10 display-md-6 display-lg-4 display-xl-3 display-xxl-1 mb-1-9 mb-md-2-9">24/7 control of your <strong class="text-secondary font-weight-600">security.</strong></h1>
-                            <a href="about-us.html" class="butn primary"><span>Learn More</span></a>
+                            <a href="#about" class="butn primary"><span>Learn More</span></a>
                         </div>
                     </div>
                 </div>
@@ -25,9 +25,9 @@
                 <div class="d-table-cell align-middle">
                     <div class="row align-items-center">
                         <div class="col-md-10 col-lg-9 col-xl-7">
-                            <span class="text-secondary mb-3 sub-title">Welcome to Monity</span>
+                            <span class="text-secondary mb-3 sub-title">Welcome to Neyoo & Tee</span>
                             <h1 class="text-white display-12 display-sm-10 display-md-6 display-lg-4 display-xl-3 display-xxl-1 mb-1-9 mb-md-2-9">Every security <strong class="text-secondary font-weight-600"> solutions.</strong></h1>
-                            <a href="about-us.html" class="butn primary"><span>Learn More</span></a>
+                            <a href="#about" class="butn primary"><span>Learn More</span></a>
                         </div>
                     </div>
                 </div>
@@ -39,9 +39,9 @@
                 <div class="d-table-cell align-middle">
                     <div class="row align-items-center">
                         <div class="col-md-10 col-lg-9 col-xl-7">
-                            <span class="text-secondary mb-3 sub-title">Welcome to Monity</span>
+                            <span class="text-secondary mb-3 sub-title">Welcome to Neyoo & Tee</span>
                             <h1 class="text-white display-12 display-sm-10 display-md-6 display-lg-4 display-xl-3 display-xxl-1 mb-1-9 mb-md-2-9">Highest level of <strong class="text-secondary font-weight-600"> protection.</strong></h1>
-                            <a href="about-us.html" class="butn primary"><span class="">Learn more</span></a>
+                            <a href="#about" class="butn primary"><span class="">Learn more</span></a>
                         </div>
                     </div>
                 </div>
@@ -55,7 +55,7 @@
 
 <!-- ABOUTUS
         ================================================== -->
-<section class="about-section">
+<section class="about-section" id="about">
     <div class="about-container">
         <div class="row align-items-center">
             <div class="col-lg-4 wow fadeIn mb-2-2 mb-lg-0" data-wow-delay="100ms">
@@ -93,7 +93,7 @@
                             <h3 class="mb-1-6 mb-sm-1-9 text-white">Successful Installation till now.</h3>
                             <h5 class="h6 text-white">Security becomes easier!</h5>
                             <p class="text-white">There are so many variations of securities available.</p>
-                            <a href="about-us.html" class="text-secondary white-hover">Read More &#10230;</a>
+                            <a href="./about.php" class="text-secondary white-hover">Read More &#10230;</a>
                         </div>
                     </div>
                 </div>
@@ -124,7 +124,7 @@
                                 <div class="service-details">
                                     <h3 class="mb-3 h5"><a href="finger-print-access.html">Finger Print Access</a></h3>
                                     <p class="mb-3">We specialize in planning, installation, and repair of full range security.</p>
-                                    <a href="finger-print-access.html">Read More &#10230;</a>
+                                    <a href="./our-services.php">Read More &#10230;</a>
                                 </div>
                             </div>
                         </div>
@@ -133,7 +133,7 @@
                                 <div class="service-details">
                                     <h3 class="mb-3 h5"><a href="cctv-installation.html">CCTV Installation</a></h3>
                                     <p class="mb-3">We specialize in planning, installation, and repair of full range security.</p>
-                                    <a href="cctv-installation.html">Read More &#10230;</a>
+                                    <a href="./our-services.php">Read More &#10230;</a>
                                 </div>
                             </div>
                         </div>
@@ -142,7 +142,7 @@
                                 <div class="service-details">
                                     <h3 class="mb-3 h5"><a href="circuit-cameras.html">Circuit Cameras</a></h3>
                                     <p class="mb-3">We specialize in planning, installation, and repair of full range security.</p>
-                                    <a href="circuit-cameras.html">Read More &#10230;</a>
+                                    <a href="./our-services.php">Read More &#10230;</a>
                                 </div>
                             </div>
                         </div>
@@ -151,7 +151,7 @@
                                 <div class="service-details">
                                     <h3 class="mb-3 h5"><a href="wifi-camera-security.html">Wifi Camera Security</a></h3>
                                     <p class="mb-3">We specialize in planning, installation, and repair of full range security.</p>
-                                    <a href="wifi-camera-security.html">Read More &#10230;</a>
+                                    <a href="./our-services.php">Read More &#10230;</a>
                                 </div>
                             </div>
                         </div>
@@ -160,7 +160,7 @@
                                 <div class="service-details">
                                     <h3 class="mb-3 h5"><a href="video-analytics-system.html">Video Analytics</a></h3>
                                     <p class="mb-3">We specialize in planning, installation, and repair of full range security.</p>
-                                    <a href="video-analytics-system.html">Read More &#10230;</a>
+                                    <a href="./our-services.php">Read More &#10230;</a>
                                 </div>
                             </div>
                         </div>
@@ -169,7 +169,7 @@
                                 <div class="service-details">
                                     <h3 class="mb-3 h5"><a href="home-automation.html">Home Automation</a></h3>
                                     <p class="mb-3">We specialize in planning, installation, and repair of full range security.</p>
-                                    <a href="home-automation.html">Read More &#10230;</a>
+                                    <a href="./our-services.php">Read More &#10230;</a>
                                 </div>
                             </div>
                         </div>
@@ -242,7 +242,7 @@
                             <p class="text-white opacity8 mb-0">We provide the best latest technology of corporate and our staff are available in at customers support.</p>
                         </div>
                     </div>
-                    <a href="our-services.html" class="text-white text-secondary-hover wow" data-wow-delay="800ms"><span>Read More &#10230;</span></a>
+                    <a href="./our-services.php" class="text-white text-secondary-hover wow" data-wow-delay="800ms"><span>Read More &#10230;</span></a>
                 </div>
             </div>
         </div>

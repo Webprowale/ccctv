@@ -9,9 +9,9 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <h1>Blog Grid</h1>
+                        <h1>Blog</h1>
                         <ul>
-                            <li><a href="index.html">Home</a></li>
+                            <li><a href="./index.php">Home</a></li>
                             <li>Blog Grid</li>
                         </ul>                    
                     </div>
