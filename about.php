@@ -11,7 +11,7 @@
                     <div class="col-md-12">
                         <h1>About Us</h1>
                         <ul>
-                            <li><a href="index.html">Home</a></li>
+                            <li><a href="index.php">Home</a></li>
                             <li>About Us</li>
                         </ul>                    
                     </div>
@@ -46,7 +46,7 @@
                     <div class="col-lg-6 mt-2-9 wow fadeIn" data-wow-delay="200ms">
                         <div class="ps-lg-1-9 ps-xl-7">
                             <h2 class="h1 mb-lg-1-9">We will make your home &amp; business completely safe.</h2>
-                            <p class="display-25 mb-lg-1-9 text-secondary">“It’s the perfect solution for our business. I couldn’t have asked for more than this. I’m good to go.”</p>
+                            <p class="display-25 mb-lg-1-9 text-secondary">We are committed to giving our clients the best and meeting up with our customers' demands.</p>
                             <div class="row mb-1-9 mt-n1-9">
                                 <div class="col-sm-6 mt-1-9">
                                     <div class="d-flex">
@@ -75,21 +75,21 @@
                                     </div>
                                 </div>
                             </div>
-                            <p class="mb-1-9">We feel that this expert piece of HR is regularly unnoticed for its commitment to the productivity and accomplishment of a business.</p>
+                            <p class="mb-1-9">Neyoo and Tee tech is a technology support company that deals in providing surveillance system and IT technical services.Our services includes CCTV camera installation, sales of surveillance system equipment, Time and attendance installation  Access point , solar installation and IT related support. </p>
                             <div class="row align-items-center border-top pt-2-9">
                                 <div class="col-sm-7 mb-3 mb-sm-0">
                                     <div class="d-flex align-items-center">
                                         <div class="flex-shrink-0"><img class="rounded-circle w-60px" src="img/avatar/avatar-02.jpg" alt="About Author Image"></div>
                                         <div class="flex-grow-1 ms-3">
-                                            <h4 class="h5 mb-1">Indiana Nesbit</h4>
-                                            <p class="mb-0">Project Manager</p>
+                                            <h4 class="h5 mb-1">Okesola Niyi J.</h4>
+                                            <p class="mb-0">CEO</p>
 
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-sm-5">
+                                <!-- <div class="col-sm-5">
                                     <div><img src="img/content/sign.png" alt="Sign"></div>
-                                </div>
+                                </div> -->
                             </div>
                         </div>    
                     </div>
@@ -133,9 +133,9 @@
                         <div class="bg-dark p-1-9 p-sm-2-9 rounded">
                             <div class="section-heading mb-3 mb-xl-4 text-start">
                                 <span class="text-white">why choose us</span>
-                                <h2 class="h3 w-100 text-white">We provide latest CCTV cameras</h2>
+                                <h2 class="h3 w-100 text-white">We provide latest security technology</h2>
                             </div>
-                            <p class="mb-1-9 text-white opacity8">The groups serve every single significant segment. of the business. Our work draw on over 25+ years of experience.</p>
+                            <p class="mb-1-9 text-white opacity8">The company has been in existence since 2019 and duly recognized as a company under the Coperate Affairs Commission with registration number RC-7201088.We have competent engineers who have been trained to carry out their tasks diligently nationwide.</p>
                             <div class="progress-text text-white">
                                 <div class="row">
                                     <div class="col-10"><strong>First Phase</strong></div>
@@ -167,7 +167,7 @@
                     </div>
                     <div class="col-lg-7 d-none d-lg-block wow fadeIn" data-wow-delay="200ms">
                         <div class="bg-img h-100 why-choose-block ms-2-9 rounded-start" data-background="img/content/01.jpg">
-                            <span class="content">We're epic since 1995</span>
+                            <span class="content">We're epic since 2019</span>
                         </div>
                     </div>
                 </div>
