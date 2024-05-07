@@ -1,4 +1,18 @@
 <?php
+// $title = $_GET['title'];
+// include("./config.php");
+// $sql = "SELECT * FROM post WHERE id = '$title'";
+// $results = mysqli_query($conn, $sql);
+// if (!(mysqli_num_rows($results) > 0)) {
+//     echo "<script>
+//     alert('Content not found');
+//     window.location.href= './blog.php';
+//     </script>";
+// }
+// mysqli_close($conn);
+?>
+
+<?php
   $pageTitle = "Blog Details";
   require "./header.php";
 ?>
@@ -10,7 +24,7 @@
                     <div class="col-md-12">
                         <h1>Blog Detail</h1>
                         <ul>
-                            <li><a href="index.html">Home</a></li>
+                            <li><a href="index.php">Home</a></li>
                             <li>Blog Detail</li>
                         </ul>                    
                     </div>
@@ -110,7 +124,7 @@
                         </div>
                        
                        <!-- Comments -->
-                        <div class="mb-6 wow fadeIn" data-wow-delay="100ms">
+                        <!-- <div class="mb-6 wow fadeIn" data-wow-delay="100ms">
                             <div class="mb-1-9">
                                 <h3 class="h4">4 Comments</h3>
                             </div>
@@ -165,10 +179,10 @@
                             </div>
 
                             <!-- #comment-## -->
-                        </div>
+                        </div> -->
                         <!-- End Comments -->
 
-                        <div class="wow fadeIn" data-wow-delay="100ms">
+                        <!-- <div class="wow fadeIn" data-wow-delay="100ms">
                             <h3 class="h4 mb-3">Leave a reply</h3>
 
                             <!-- Form -->
@@ -193,7 +207,7 @@
                                 </div>
                             </form>
                             <!-- End Form -->
-                        </div>  
+                        </div>   -->
 
                     </div>
                     <div class="col-lg-4 mt-2-9">
@@ -208,7 +222,7 @@
                                     </div>
                                 </form>
                             </div>
-                            <div id="text-1" class="widget widget_text wow fadeIn" data-wow-delay="100ms">
+                            <!-- <div id="text-1" class="widget widget_text wow fadeIn" data-wow-delay="100ms">
                                 <div class="widget-title">
                                     <h3 class="mb-0 h6">Clients</h3>
                                 </div>
@@ -244,8 +258,8 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div id="categories-1" class="widget widget_categories wow fadeIn" data-wow-delay="100ms">
+                            </div> -->
+                            <!-- <div id="categories-1" class="widget widget_categories wow fadeIn" data-wow-delay="100ms">
                                 <div class="widget-title">
                                     <h3 class="mb-0 h6">Categories</h3>
                                 </div>
@@ -258,8 +272,8 @@
                                     <li class="cat-item cat-item-7"><a href="#!"><span class="cat-name">Wireless</span> <span class="float-end cat-count">(1)</span></a></li>
                                 </ul>
 
-                            </div>
-                            <div class="widget widget_news wow fadeIn" data-wow-delay="100ms">
+                            </div> -->
+                            <!-- <div class="widget widget_news wow fadeIn" data-wow-delay="100ms">
                                 <div class="widget-title">
                                     <h3 class="mb-0 h6">Latest Posts</h3>
                                 </div>
@@ -294,8 +308,8 @@
                                     </div>
                                 </div>
 
-                            </div>
-                            <div class="widget widget_archive wow fadeIn" data-wow-delay="100ms">
+                            </div> -->
+                            <!-- <div class="widget widget_archive wow fadeIn" data-wow-delay="100ms">
                                 <div class="widget-title">
                                     <h3 class="mb-0 h6">Archives</h3>
                                 </div>
@@ -303,8 +317,8 @@
                                     <li><a href="#!"><span class="archive-name">January 2023</span> <span class="float-end archive-count">(6)</span></a></li>
                                 </ul>
 
-                            </div>
-                            <div class="widget widget_tag_cloud wow fadeIn" data-wow-delay="100ms">
+                            </div> -->
+                            <!-- <div class="widget widget_tag_cloud wow fadeIn" data-wow-delay="100ms">
                                 <div class="widget-title">
                                     <h3 class="mb-0 h6">Popular Tags</h3>
                                 </div>
@@ -316,8 +330,8 @@
                                         <li><a href="#!" class="tag-cloud-link tag-link-11 tag-link-position-4">safety</a></li>
                                     </ul>
                                 </div>
-                            </div>
-                            <div class="widget widget_custom_html wow fadeIn p-0 mb-0" data-wow-delay="100ms">
+                            </div> -->
+                            <!-- <div class="widget widget_custom_html wow fadeIn p-0 mb-0" data-wow-delay="100ms">
                                 <div class="textwidget custom-html-widget">
                                     <aside class="widget mb-0 p-1-9 text-center rounded bg-img cover-background dark-overlay wow fadeIn" data-wow-delay="800ms" data-overlay-dark="7" data-background="img/blog/blog-banner.jpg">
                                         <div class="z-index-2 position-relative"><i class="ti-mobile border p-3 border-radius-5 display-22 text-white d-inline-block mb-3"></i>
@@ -326,7 +340,7 @@
                                         </div>
                                     </aside>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
