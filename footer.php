@@ -10,17 +10,17 @@
                         <h4 class="text-white mb-1-9 fw-light w-lg-75 display-29 lh-base opacity8">Security and privacy are two sides of the same coin. You can’t have privacy without security and vice versa.</h4>
 
                         <ul class="social-icon-style1">
-                            <li><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a></li>
-                            <li><a href="https://www.instagram.com/neyootee?igsh=YzljYTK1" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                            <li><a href="https://www.facebook.com/profile.php?id=100083049743235&mibextid=ZbWKwL" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="https://twitter.com/neyooteetech" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="https://www.tiktok.com/@neyoo_teetech?_t=8m7NMKpRjAD&_r=1" target="_blank"><i class="fab fa-tiktok"></i></a></li>
+                            <li><a href="https://www.instagram.com/neyootee?igsh=YzljYTk1ODg3Zg==" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
                         </ul>
 
                     </div>
                     <div class="col-md-6 col-lg-3 mt-2-9 wow fadeIn" data-wow-delay="150ms">
                         <h3 class="text-white h5 mb-1-9">Newsletter</h3>
                         <p class="text-white opacity9">Don’t miss to subscribe to our new feeds.</p>
-                        <form class="quform newsletter-form" action="https://monityhtml.websitelayout.net/quform/newsletter-two.php" method="post" enctype="multipart/form-data" onclick="">
+                        <form class="form" action=""  method="post" enctype="multipart/form-data">
 
                             <div class="quform-elements">
                                 <div class="row">
@@ -55,14 +55,15 @@
                             <div class="flex-shrink-0"><img src="img/icons/icon-phone.png" alt="..."></div>
                             <div class="flex-grow-1 ms-3">
                                 <h4 class="mb-1 h5 text-white">Contact Us</h4>
-                                <p class="mb-0 text-white">(44) 123-456-789</p>
+                                <p class="mb-0 text-white">08103108279</p>
+                                <p class="mb-0 text-white">08118341899</p>
                             </div>
                         </div>
                         <div class="d-flex">
                             <div class="flex-shrink-0"><img src="img/icons/icon-mail.png" alt="..."></div>
                             <div class="flex-grow-1 ms-3">
                                 <h4 class="mb-1 h5 text-white">Mail Us</h4>
-                                <p class="mb-0 text-white">info@yourdomain.com</p>
+                                <p class="mb-0 text-white">neyoo.tee.tech@gmail.com</p>
                             </div>
                         </div>
                     </div>

@@ -368,7 +368,7 @@
 
 <!-- CLIENTS
         ================================================== -->
-<section class="pt-5 pb-4 wow fadeIn bg-secondary" data-wow-delay="100ms">
+<!-- <section class="pt-5 pb-4 wow fadeIn bg-secondary" data-wow-delay="100ms">
     <div class="container-fluid px-sm-14">
         <div class="owl-carousel owl-theme client-style1 text-center">
             <div class="image-wrapper">
@@ -389,7 +389,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 <!-- FAQ
         ================================================== -->

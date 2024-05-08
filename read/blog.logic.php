@@ -2,7 +2,6 @@
 include("./config.php");
 $query = "SELECT * FROM post";
 $result = mysqli_query($conn, $query);
-
 if ($result) {
     while ($row = mysqli_fetch_assoc($result)) {
         echo '<div class="col-md-6 col-lg-4 mt-2-9 wow fadeIn" data-wow-delay="100ms">';

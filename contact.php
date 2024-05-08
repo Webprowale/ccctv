@@ -68,8 +68,8 @@ require "./header.php";
                     <div class="contact-content">
                         <h4 class="h3 mb-3">Call Us</h4>
                         <h2 class="title-hover">Call Us</h2>
-                        <a href="#!" class="d-block font-weight-500 mb-1 display-md-28">(+44) 123 456 789</a>
-                        <a href="#!" class="font-weight-500 display-md-28">+ (124) 1523-567-9874</a>
+                        <a href="#!" class="d-block font-weight-500 mb-1 display-md-28">08118341899</a>
+                        <a href="#!" class="font-weight-500 display-md-28">08103108279</a>
                     </div>
                 </div>
             </div>
@@ -96,7 +96,8 @@ require "./header.php";
                     <div class="contact-content">
                         <h4 class="h3 mb-3">Address</h4>
                         <h2 class="title-hover">Address</h2>
-                        <span class="d-block font-weight-500 w-xxl-55 mx-auto display-md-28">66 Guild Street, Great North Town.</span>
+                        <span class="d-block font-weight-500 w-xxl-55 mx-auto display-md-28">Petplus Vetertinary service, Eleyele road. Ibadan</span>
+                        <span class="d-block font-weight-500 w-xxl-55 mx-auto display-md-28">Tolad pet store, Surulere. Lagos</span>
                     </div>
                 </div>
             </div>
@@ -175,7 +176,7 @@ require "./header.php";
                                     <!-- End Textarea element -->
 
                                     <!-- Begin Captcha element -->
-                                    <div class="col-md-12">
+                                    <!-- <div class="col-md-12">
                                         <div class="form-group">
                                             <div class="quform-input">
                                                 <input class="form-control" id="type_the_word" type="text" name="type_the_word" placeholder="Type the below word">
@@ -188,7 +189,7 @@ require "./header.php";
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> -->
                                     <!-- End Captcha element -->
 
                                     <!-- Begin Submit button -->

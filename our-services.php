@@ -81,7 +81,7 @@
                     </div>
                     <div class="col-md-8 wow fadeIn" data-wow-delay="200ms">
                         <div class="bg-secondary h-100 p-1-9 p-lg-6 position-relative">
-                            <h3 class="text-white">Call Us (+44)123 456 789</h3>
+                            <h3 class="text-white">Call Us 08118341899</h3>
                             <p class="text-white mb-0">If you're searching out advice, please call us. We will discover you and get in touch.</p>
                             <span class="position-absolute top-35 left-n25px"><i class="fas fa-phone p-3 rounded-circle d-block bg-white text-secondary d-none d-md-block"></i></span>
                         </div>
@@ -151,9 +151,24 @@
                                 <div class="icon-wrapper">
                                     <img src="img/icons/icon-10.png" alt="Icon">
                                 </div>
-                                <h3 class="mb-3 h4"><a href="finger-print-access.html">Finger Print Access</a></h3>
+                                <h3 class="mb-3 h4"><a >CCTV IP Camera Installation</a></h3>
                                 <p class="mb-3">We specialize in planning, installation, and repair of full range security.</p>
                                 <!-- <a href="finger-print-access.html">Read More &#10230;</a> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mt-2-9 wow fadeIn" data-wow-delay="400ms">
+                        <div class="card card-style1 m-0 border-0">
+                            <div class="overflow-hidden img-card">
+                                <img src="img/content/service-06.jpg" alt="Image">
+                            </div>
+                            <div class="card-body rounded-bottom-md-5px">
+                                <div class="icon-wrapper">
+                                    <img src="img/icons/icon-09.png" alt="Icon">
+                                </div>
+                                <h3 class="mb-3 h4"><a>Analog/IP Intelecom System Installation</a></h3>
+                                <p class="mb-3">We specialize in planning, installation, and repair of full range security.</p>
+                                <!-- <a href="home-automation.html">Read More &#10230;</a> -->
                             </div>
                         </div>
                     </div>
@@ -166,7 +181,7 @@
                                 <div class="icon-wrapper">
                                     <img src="img/icons/icon-12.png" alt="Icon">
                                 </div>
-                                <h3 class="mb-3 h4"><a href="cctv-installation.html">CCTV Installation</a></h3>
+                                <h3 class="mb-3 h4"><a >CCTV Analog Installation</a></h3>
                                 <p class="mb-3">We specialize in planning, installation, and repair of full range security.</p>
                                 <!-- <a href="cctv-installation.html">Read More &#10230;</a> -->
                             </div>
@@ -181,9 +196,9 @@
                                 <div class="icon-wrapper">
                                     <img src="img/icons/icon-11.png" alt="Icon">
                                 </div>
-                                <h3 class="mb-3 h4"><a href="circuit-cameras.html">Circuit Cameras</a></h3>
+                                <h3 class="mb-3 h4"><a >Access control system Installation</a></h3>
                                 <p class="mb-3">We specialize in planning, installation, and repair of full range security.</p>
-                                <a href="circuit-cameras.html">Read More &#10230;</a>
+                                <!-- <a href="circuit-cameras.html">Read More &#10230;</a> -->
                             </div>
                         </div>
                     </div>
@@ -196,9 +211,24 @@
                                 <div class="icon-wrapper">
                                     <img src="img/icons/icon-13.png" alt="Icon">
                                 </div>
-                                <h3 class="mb-3 h4"><a href="wifi-camera-security.html">Wifi Camera Security</a></h3>
+                                <h3 class="mb-3 h4"><a >Time and attendance(T&A) Maintenance</a></h3>
                                 <p class="mb-3">We specialize in planning, installation, and repair of full range security.</p>
                                 <!-- <a href="wifi-camera-security.html">Read More &#10230;</a> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mt-2-9 wow fadeIn" data-wow-delay="400ms">
+                        <div class="card card-style1 m-0 border-0">
+                            <div class="overflow-hidden img-card">
+                                <img src="img/content/service-06.jpg" alt="Image">
+                            </div>
+                            <div class="card-body rounded-bottom-md-5px">
+                                <div class="icon-wrapper">
+                                    <img src="img/icons/icon-09.png" alt="Icon">
+                                </div>
+                                <h3 class="mb-3 h4"><a >Networking</a></h3>
+                                <p class="mb-3">We specialize in planning, installation, and repair of full range security.</p>
+                                <!-- <a href="home-automation.html">Read More &#10230;</a> -->
                             </div>
                         </div>
                     </div>
@@ -211,7 +241,7 @@
                                 <div class="icon-wrapper">
                                     <img src="img/icons/icon-08.png" alt="Icon">
                                 </div>
-                                <h3 class="mb-3 h4"><a href="video-analytics-system.html">Video Analytics</a></h3>
+                                <h3 class="mb-3 h4"><a >Solar system Installation</a></h3>
                                 <p class="mb-3">We specialize in planning, installation, and repair of full range security.</p>
                                 <!-- <a href="video-analytics-system.html">Read More &#10230;</a> -->
                             </div>
@@ -226,7 +256,22 @@
                                 <div class="icon-wrapper">
                                     <img src="img/icons/icon-09.png" alt="Icon">
                                 </div>
-                                <h3 class="mb-3 h4"><a href="home-automation.html">Home Automation</a></h3>
+                                <h3 class="mb-3 h4"><a >Fire Alarm System Installation</a></h3>
+                                <p class="mb-3">We specialize in planning, installation, and repair of full range security.</p>
+                                <!-- <a href="home-automation.html">Read More &#10230;</a> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mt-2-9 wow fadeIn" data-wow-delay="400ms">
+                        <div class="card card-style1 m-0 border-0">
+                            <div class="overflow-hidden img-card">
+                                <img src="img/content/service-06.jpg" alt="Image">
+                            </div>
+                            <div class="card-body rounded-bottom-md-5px">
+                                <div class="icon-wrapper">
+                                    <img src="img/icons/icon-09.png" alt="Icon">
+                                </div>
+                                <h3 class="mb-3 h4"><a >DSTV Installation</a></h3>
                                 <p class="mb-3">We specialize in planning, installation, and repair of full range security.</p>
                                 <!-- <a href="home-automation.html">Read More &#10230;</a> -->
                             </div>

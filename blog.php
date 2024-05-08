@@ -12,7 +12,7 @@
                         <h1>Blog</h1>
                         <ul>
                             <li><a href="./index.php">Home</a></li>
-                            <li>Blog Grid</li>
+                            <li>Blog </li>
                         </ul>                    
                     </div>
                 </div>
