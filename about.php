@@ -31,14 +31,12 @@
                     <div class="col-lg-6 mt-2-9 wow fadeIn" data-wow-delay="100ms">
                         <div class="position-relative me-xl-2-9 ps-md-4 text-center text-sm-start">
                             <div class="image-hover d-inline-block z-index-1 pb-sm-8">
-                                <img src="img/content/about-03.jpg" class="rounded" alt="About Image1">
+                                <img src="img/images/about_3.jpeg" class="rounded" alt="About Image1">
                             </div>
                             <div class="image-hover position-absolute right-n5 right-md-10 right-lg-n5 bottom-0 d-none d-sm-block z-index-2">
-                                <img src="img/content/about-04.jpg" class="rounded" alt="About Image2">
+                                
                             </div>
-                            <div class="story-video position-absolute about-story-video">
-                                <a class="video video_btn" href="https://www.youtube.com/watch?v=f5BBJ4ySgpo"><i class="fas fa-play"></i></a>
-                            </div>
+                           
                             <img src="img/content/dots.png" class="position-absolute left-n5 bottom-5 z-index-0 ani-left-right d-none d-sm-inline-block" alt="About Image3">
                             <div class="d-sm-inline-block d-none p-18 bg-light rounded-circle position-absolute right-5 right-md-10 right-lg-5 top-n5"></div>
                         </div>
@@ -79,7 +77,7 @@
                             <div class="row align-items-center border-top pt-2-9">
                                 <div class="col-sm-7 mb-3 mb-sm-0">
                                     <div class="d-flex align-items-center">
-                                        <div class="flex-shrink-0"><img class="rounded-circle w-60px" src="img/avatar/avatar-02.jpg" alt="About Author Image"></div>
+                                        <div class="flex-shrink-0"><img class="rounded-circle" src="img/images/ceo.jpeg" alt="About Author Image" style="width: 80px; height:80px;"></div>
                                         <div class="flex-grow-1 ms-3">
                                             <h4 class="h5 mb-1">Okesola Niyi J.</h4>
                                             <p class="mb-0">CEO</p>
@@ -87,9 +85,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <!-- <div class="col-sm-5">
-                                    <div><img src="img/content/sign.png" alt="Sign"></div>
-                                </div> -->
+                                
                             </div>
                         </div>    
                     </div>
@@ -166,7 +162,7 @@
                         </div>
                     </div>
                     <div class="col-lg-7 d-none d-lg-block wow fadeIn" data-wow-delay="200ms">
-                        <div class="bg-img h-100 why-choose-block ms-2-9 rounded-start" data-background="img/content/01.jpg">
+                        <div class="bg-img h-100 why-choose-block ms-2-9 rounded-start" data-background="img/images/about_4.jpeg">
                             <span class="content">We're epic since 2019</span>
                         </div>
                     </div>
@@ -240,82 +236,11 @@
                     <h2 class="h1">Meet Our Team Members</h2>
                 </div>
                 <div class="row g-xl-5 mt-n1-9">
-                    <div class="col-sm-6 col-lg-3 mt-1-9 wow fadeIn" data-wow-delay="50ms">
-                        <div class="card card-style2">
-                            <div class="position-relative z-index-9">
-                                <img src="img/team/team-01.jpg" alt="...">
-                                <div class="team-social-icon">
-                                    <ul class="list-unstyled mb-0">
-                                    <li><a href="#!"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="#!"><i class="fab fa-twitter"></i></a></li>
-                                    <li><a href="#!"><i class="fab fa-instagram "></i></a></li>
-                                    <li><a href="#!"><i class="fab fa-linkedin-in"></i></a></li>
-                                </ul>
-                                </div>
-                            </div>
-                            <div class="card-body position-relative z-index-9">
-                                <h3 class="h5 mb-0"><a href="team-details.html">Andy Hazelwood</a></h3>
-                                <p class="mb-0 small">Security Agent</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-3 mt-1-9 wow fadeIn" data-wow-delay="100ms">
-                        <div class="card card-style2">
-                            <div class="position-relative z-index-9">
-                                <img src="img/team/team-02.jpg" alt="...">
-                                <div class="team-social-icon">
-                                    <ul class="list-unstyled mb-0">
-                                        <li><a href="#!"><i class="fab fa-facebook-f"></i></a></li>
-                                        <li><a href="#!"><i class="fab fa-twitter"></i></a></li>
-                                        <li><a href="#!"><i class="fab fa-instagram "></i></a></li>
-                                        <li><a href="#!"><i class="fab fa-linkedin-in"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="card-body position-relative z-index-9">
-                                <h3 class="h5 mb-0"><a href="team-details.html">Richard Brady</a></h3>
-                                <p class="mb-0 small">Security SPV</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-3 mt-1-9 wow fadeIn" data-wow-delay="150ms">
-                        <div class="card card-style2">
-                            <div class="position-relative z-index-9">
-                                <img src="img/team/team-03.jpg" alt="...">
-                                <div class="team-social-icon">
-                                    <ul class="list-unstyled mb-0">
-                                        <li><a href="#!"><i class="fab fa-facebook-f"></i></a></li>
-                                        <li><a href="#!"><i class="fab fa-twitter"></i></a></li>
-                                        <li><a href="#!"><i class="fab fa-instagram "></i></a></li>
-                                        <li><a href="#!"><i class="fab fa-linkedin-in"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="card-body position-relative z-index-9">
-                                <h3 class="h5 mb-0"><a href="team-details.html">Roxana Ruffin</a></h3>
-                                <p class="mb-0 small">CCTV Enggineer</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-3 mt-1-9 wow fadeIn" data-wow-delay="200ms">
-                        <div class="card card-style2">
-                            <div class="position-relative z-index-9">
-                                <img src="img/team/team-04.jpg" alt="...">
-                                <div class="team-social-icon">
-                                    <ul class="list-unstyled mb-0">
-                                        <li><a href="#!"><i class="fab fa-facebook-f"></i></a></li>
-                                        <li><a href="#!"><i class="fab fa-twitter"></i></a></li>
-                                        <li><a href="#!"><i class="fab fa-instagram "></i></a></li>
-                                        <li><a href="#!"><i class="fab fa-linkedin-in"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="card-body position-relative z-index-9">
-                                <h3 class="h5 mb-0"><a href="team-details.html">Louis Coburn</a></h3>
-                                <p class="mb-0 small">CCTV Enggineer</p>
-                            </div>
-                        </div>
-                    </div>
+                    <?php include("./read/team.php") ?>
+                    
+                    
+                   
+                   
                 </div>
             </div>
             <img src="img/content/dots2.png" class="position-absolute bottom-10 start-0 z-index-2 d-none d-md-block" alt="...">
@@ -332,24 +257,7 @@
                 <div class="row justify-content-center wow fadeIn" data-wow-delay="200ms">
                     <div class="col-11 col-md-10 col-lg-6">
                         <div class="testimonial-style1 position-inherit text-center owl-theme owl-carousel" data-slider-id="1">
-                            <div>
-                                <i class="ti-quote-left display-10 text-primary mb-4 d-block"></i>
-                                <p class="mb-1-9 display-28 display-md-26 display-lg-24">I am really satisfied with my business. Your company is truly upstanding and is behind its product 100%. Thank you for making it painless, pleasant and most of all hassle free!</p>
-                                <h6 class="mb-0">Gregi Ambrose</h6>
-                                <span class="small">Languages Researcher</span>
-                            </div>
-                            <div>
-                                <i class="ti-quote-left display-10 text-primary mb-4 d-block"></i>
-                                <p class="mb-1-9 display-28 display-md-26 display-lg-24">Thanks to business, we've just launched our 5th website! Thank you so much for your help. I don't always clop, but when I do, it's because of business.</p>
-                                <h6 class="mb-0">Jose Matsuda</h6>
-                                <span class="small">Mystery Shopper</span>
-                            </div>
-                            <div>
-                                <i class="ti-quote-left display-10 text-primary mb-4 d-block"></i>
-                                <p class="mb-1-9 display-28 display-md-26 display-lg-24">I don't know what else to say. I would gladly pay over 600 dollars for business. Keep up the excellent work. It's incredible. It's the perfect solution for our business.</p>
-                                <h6 class="mb-0">Allena Jones</h6>
-                                <span class="small">Real Estate Assessor</span>
-                            </div>
+                            <?php include("./read/testimony.php") ?>
                         </div>
                         <div class="owl-thumbs text-center mt-2-3" data-slider-id="1">
                             <button class="owl-thumb-item rounded-circle w-60px me-2">

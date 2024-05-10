@@ -9,10 +9,10 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <h1>Portfolio Standard</h1>
+                        <h1>Portfolio</h1>
                         <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li>Portfolio Standard</li>
+                            <li><a href="index.php">Home</a></li>
+                            <li>Portfolio</li>
                         </ul>                    
                     </div>
                 </div>
@@ -28,90 +28,7 @@
         <section>
             <div class="container">
                 <div class="row mt-n1-9 portfolio-gallery">
-                    <div class="col-md-6 col-lg-4 mt-1-9 wow fadeIn" data-wow-delay="100ms" data-src="img/portfolio/portfolio-05.jpg" data-sub-html="<h4 class='text-white'>Commercial Surveillance #01</h4><p>Surveillance</p>">
-                        <div class="card card-style4">
-                            <img src="img/portfolio/portfolio-05.jpg" alt="...">
-                            <div class="card-body">
-                                <div class="portfolio-links">
-                                    <a href="project-details.html" class="portfolio-link"><i class="ti-link"></i></a>
-                                </div>
-                                <div class="portfolio-overlay-info">
-                                    <h3 class="h5"><a href="#!" class="text-white">Office Surveillance</a></h3>
-                                    <span class="text-white opacity9 display-29">Protection</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 mt-1-9 wow fadeIn" data-wow-delay="150ms" data-src="img/portfolio/portfolio-02.jpg" data-sub-html="<h4 class='text-white'>Static Security #02</h4><p>Surveillance</p>">
-                        <div class="card card-style4">
-                            <img src="img/portfolio/portfolio-02.jpg" alt="...">
-                            <div class="card-body">
-                                <div class="portfolio-links">
-                                    <a href="project-details.html" class="portfolio-link"><i class="ti-link"></i></a>
-                                </div>
-                                <div class="portfolio-overlay-info">
-                                    <h3 class="h5"><a href="#!" class="text-white">Static Security</a></h3>
-                                    <span class="text-white opacity9 display-29">Surveillance</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 mt-1-9 wow fadeIn" data-wow-delay="200ms" data-src="img/portfolio/portfolio-03.jpg" data-sub-html="<h4 class='text-white'>Corporate Security #03</h4><p>Wireless Camera</p>">
-                        <div class="card card-style4">
-                            <img src="img/portfolio/portfolio-03.jpg" alt="...">
-                            <div class="card-body">
-                                <div class="portfolio-links">
-                                    <a href="project-details.html" class="portfolio-link"><i class="ti-link"></i></a>
-                                </div>
-                                <div class="portfolio-overlay-info">
-                                    <h3 class="h5"><a href="#!" class="text-white">Corporate Security</a></h3>
-                                    <span class="text-white opacity9 display-29">Wireless Camera</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 mt-1-9 wow fadeIn" data-wow-delay="100ms" data-src="img/portfolio/portfolio-04.jpg" data-sub-html="<h4 class='text-white'>Security Technique #04</h4><p>Equipment</p>">
-                        <div class="card card-style4">
-                            <img src="img/portfolio/portfolio-04.jpg" alt="...">
-                            <div class="card-body">
-                                <div class="portfolio-links">
-                                    <a href="project-details.html" class="portfolio-link"><i class="ti-link"></i></a>
-                                </div>
-                                <div class="portfolio-overlay-info">
-                                    <h3 class="h5"><a href="#!" class="text-white">Security Technique</a></h3>
-                                    <span class="text-white opacity9 display-29">Equipment</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 mt-1-9 wow fadeIn" data-wow-delay="150ms" data-src="img/portfolio/portfolio-01.jpg" data-sub-html="<h4 class='text-white'>Office Surveillance #05</h4><p>Protection</p>">
-                        <div class="card card-style4">
-                            <img src="img/portfolio/portfolio-01.jpg" alt="...">
-                            <div class="card-body">
-                                <div class="portfolio-links">
-                                    <a href="project-details.html" class="portfolio-link"><i class="ti-link"></i></a>
-                                </div>
-                                <div class="portfolio-overlay-info">
-                                    <h3 class="h5"><a href="#!" class="text-white">Commercial Surveillance</a></h3>
-                                    <span class="text-white opacity9 display-29">Surveillance</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 mt-1-9 wow fadeIn" data-wow-delay="200ms" data-src="img/portfolio/portfolio-06.jpg" data-sub-html="<h4 class='text-white'>Automation System #06</h4><p>Protection</p>">
-                        <div class="card card-style4">
-                            <img src="img/portfolio/portfolio-06.jpg" alt="...">
-                            <div class="card-body">
-                                <div class="portfolio-links">
-                                    <a href="project-details.html" class="portfolio-link"><i class="ti-link"></i></a>
-                                </div>
-                                <div class="portfolio-overlay-info">
-                                    <h3 class="h5"><a href="#!" class="text-white">Automation System</a></h3>
-                                    <span class="text-white opacity9 display-29">Protection</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                   <?php include("./read/project.main.php") ?>
                 </div>
             </div>
         </section>

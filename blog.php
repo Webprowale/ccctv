@@ -28,6 +28,7 @@
         <section>
             <div class="container">
                 <div class="row gx-xxl-5 mt-n2-9">
+                    <?php include("./read/blog.logic.php") ?>
                     <div class="col-md-6 col-lg-4 mt-2-9 wow fadeIn" data-wow-delay="100ms">
                         <article class="card card-style1 border-0 m-0 h-100">
                             <div class="overflow-hidden img-card mb-2 rounded-top-md-5px">

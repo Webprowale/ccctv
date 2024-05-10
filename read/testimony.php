@@ -1,6 +1,6 @@
 <?php
-include("./config.php");
-$query = "SELECT * FROM testimony";
+include("./admin/config.php");
+$query = "SELECT * FROM testimonials";
 $result = mysqli_query($conn, $query);
 
 if ($result) {

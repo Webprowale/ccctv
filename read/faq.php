@@ -1,5 +1,5 @@
 <?php
-include("./config.php");
+include("./admin/config.php");
 $query = "SELECT * FROM faq";
 $result = mysqli_query($conn, $query);
 
@@ -8,12 +8,12 @@ if ($result) {
         echo '<div class="card">';
         echo '<h2 class="card-header" id="headingOne">';
         echo '<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">';
-        echo $row['question'];
+        echo $row['heading'];
         echo '</button>';
         echo '</h2>';
         echo '<div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordion">';
         echo '<div class="card-body">';
-        echo $row['answer'];
+        echo $row['fullWord'];
         echo '</div>';
         echo '</div>';
         echo '</div>';

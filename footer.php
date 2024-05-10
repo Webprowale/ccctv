@@ -4,7 +4,7 @@
                     <div class="col-md-6 col-lg-5 mt-2-9 wow fadeIn" data-wow-delay="100ms">
 
                         <div class="footer-logo mb-1-9">
-                            <a href="index.html"><img src="img/logos/footer-light-logo.png" alt="Footer Logo"></a>
+                            <a href="index.html"><img src="img/logos/logo-inner.png" alt="Footer Logo"></a>
                         </div>
 
                         <h4 class="text-white mb-1-9 fw-light w-lg-75 display-29 lh-base opacity8">Security and privacy are two sides of the same coin. You can’t have privacy without security and vice versa.</h4>

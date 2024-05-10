@@ -7,11 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <meta name="keywords" content="CCTV & Security " />
     <meta name="description" content="CCTV" />
-    <title>Neyoo and Tee || <?php echo isset($pageTitle) ? $pageTitle : "Welcome to IT Company"  ?></title>
+    <title>Neyo and Tee Tech || <?php echo isset($pageTitle) ? $pageTitle : "Welcome to IT Company"  ?></title>
     <link rel="shortcut icon" href="img/logos/favicon.png" />
-    <link rel="apple-touch-icon" href="img/logos/apple-touch-icon-57x57.png" />
-    <link rel="apple-touch-icon" sizes="72x72" href="img/logos/apple-touch-icon-72x72.png" />
-    <link rel="apple-touch-icon" sizes="114x114" href="img/logos/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon" href="img/logos/touch.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="img/logos/Neyoo.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="img/logos/ico.png" />
     <link rel="stylesheet" href="css/plugins.css">
     <link rel="stylesheet" href="search/search.css">
     <link rel="stylesheet" href="quform/css/base.css">
