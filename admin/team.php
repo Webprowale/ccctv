@@ -7,15 +7,24 @@ include "navbar.php";
 <div class="main_content_iner overly_inner ">
 <div class="container-fluid p-0 ">
 
-<div class="row">
+<div class="main_content_iner ">
+<div class="container-fluid p-0">
+<div class="row justify-content-center">
 <div class="col-12">
-<div class="page_title_box d-flex flex-wrap align-items-center justify-content-between">
-<div class="page_title_left d-flex align-items-center">
-<h3 class="f_s_25 f_w_700 dark_text mr_30">Add Team Member</h3>
-<ol class="breadcrumb page_bradcam mb-0">
-<li class="breadcrumb-item"><a href="index.php">Home</a></li>
-<li class="breadcrumb-item active">Team</li>
-</ol>
+<div class="dashboard_header mb_50">
+<div class="row">
+<div class="col-lg-6">
+<div class="dashboard_header_title">
+<h3> Add team</h3>
+</div>
+</div>
+<div class="col-lg-6">
+<div class="dashboard_breadcam text-end">
+<p><a href="index.php">home</a> <i class="fas fa-caret-right"></i> team</p>
+</div>
+</div>
+</div>
+</div>
 </div>
 
 <?php
@@ -30,7 +39,7 @@ $msg = "";
 if (isset($_POST['submit'])) {
     // Get form data
     $name = $_POST['name'];
-    $position = $_POST['position'];
+    $selected_value = $_POST['role'];
    
     $fb_handle = $_POST['fb_handle'];
     $ig_handle = $_POST['ig_handle'];
@@ -41,7 +50,7 @@ if (isset($_POST['submit'])) {
     $image_extension = pathinfo($_FILES['image']['name'], PATHINFO_EXTENSION);
     $image_new_name = $random_number . '.' . $image_extension;
 
-    $target_dir = "./image/";
+    $target_dir = "./admin/image";
     $target_file = $target_dir . $image_new_name;
 
     // Move the uploaded image to the target directory
@@ -75,37 +84,69 @@ mysqli_close($conn);
 </div>
 </div>
 
-<div class="white_card_body">
-<div class="card-body">
+
+
+
+<div class="row">
+<div class="col-12">
 <form method="POST" enctype="multipart/form-data">
-<div class="mb-3">
-    <h4 class="text-center"><?= htmlspecialchars($msg); ?></h4>
-<input type="text" class="form-control" name="name" <?= htmlspecialchars($_POST['name'] ?? ''); ?> id="inputAddress" placeholder="Name">
+<div class="white_card card_height_100 mb_30">
+<div class="white_card_header">
+<div class="box_header m-0">
+<div class="main-title">
+<h3 class="m-0">Add New Team </h3>
 </div>
-<div class="mb-3">
-<input type="text" class="form-control" name="position" <?= htmlspecialchars($_POST['position'] ?? ''); ?> id="inputAddress" placeholder="position">
 </div>
-<div class="mb-3">
-<input type="file" class="form-control" name="image" <?= htmlspecialchars($_POST['image'] ?? ''); ?> id="inputAddress" placeholder="image">
 </div>
-<div class="mb-3">
-<input type="text" class="form-control" name="fb_handle" <?= htmlspecialchars($_POST['fb_handle'] ?? ''); ?> id="inputAddress" placeholder="fb_handle">
+<div class="white_card_body">
+<div class="row">
+<div class="col-lg-6">
+<div class="common_input mb_15">
+<input type="text" name="name" <?= htmlspecialchars($_POST['name'] ?? ''); ?> placeholder="name">
 </div>
-<div class="mb-3">
-<input type="text" class="form-control" name="ig_handle" <?= htmlspecialchars($_POST['ig_handle'] ?? ''); ?> id="inputAddress" placeholder="ig_handle">
 </div>
-<div class="mb-3">
-<input type="text" class="form-control" name="tw_handle" <?= htmlspecialchars($_POST['tw_handle'] ?? ''); ?> id="inputAddress" placeholder="tw_handle">
+<div class="col-lg-6">
+<select name="role" class="nice_Select2 nice_Select_line wide">
+            <option value="1">Select Role</option>
+            <option value="ceo">ceo</option>
+            <option value="Senior worker">Senior worker</option>
+            <option value="Junior worker">Junior worker</option>
+        </select>
 </div>
-<button type="submit" name="submit" class="btn btn-primary">Add to team</button>
+<div class="col-lg-6">
+<div class="common_input mb_15">
+<input type="file" class="form-control" name="image"  <?= htmlspecialchars($_POST['image'] ?? ''); ?> placeholder="image">
+</div>
+</div>
+<div class="col-lg-6">
+<div class="common_input mb_15">
+<input type="text" name="fb_handle" <?= htmlspecialchars($_POST['fb_handle'] ?? ''); ?> placeholder="fb_handle">
+</div>
+</div>
+<div class="col-lg-6">
+<div class="common_input mb_15">
+<input type="text"<?= htmlspecialchars($_POST['ig_handle'] ?? ''); ?> placeholder="instagram handle">
+</div>
+</div>
+<div class="col-lg-6">
+<div class="common_input mb_15">
+<input type="text" <?= htmlspecialchars($_POST['tw_handle'] ?? ''); ?> placeholder="twitter">
+</div>
+</div>
+<div class="col-12">
+<div class="create_report_btn mt_30">
+<a href="" type="submit" name="submit" class="btn_1 radius_btn d-block text-center">Add to team</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
 </form>
 </div>
 </div>
-</div>
-</div>
-</div>
-</div>
-</div>
+
 
 
 <?php

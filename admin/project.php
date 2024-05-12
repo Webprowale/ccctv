@@ -62,37 +62,41 @@ mysqli_close($conn);
 
 
 
-<div class="col-lg-10">
-<div class="white_card card_height_100 mb_30">
-<div class="white_card_header">
-<div class="box_header m-0">
-<div class="main-title">
-<h4 class="text-center"><?= htmlspecialchars($msg); ?></h4>
-</div>
-</div>
-</div>
-<div class="white_card_body">
-<div class="card-body">
-<form method="POST" enctype="multipart/form-data">
-<div class="mb-3">
-<input type="text" class="form-control" name="Project_name" <?= htmlspecialchars($_POST['Project_name'] ?? ''); ?> id="inputAddress" placeholder="Project name">
-</div>
-<div class="mb-3">
-<input type="text" class="form-control" name="Category" <?= htmlspecialchars($_POST['Category'] ?? ''); ?> id="inputAddress" placeholder="Category">
-</div>
-<div class="mb-3">
-<input type="file" class="form-control" name="image" <?= htmlspecialchars($_POST['image'] ?? ''); ?> id="inputAddress" placeholder="image">
-</div>
 
-<button type="submit" name="submit" class="btn btn-primary">Add project</button>
-</form>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
+<body class="crm_body_bg">
+
+    <div class="col-lg-12">
+        <div class="white_box mb_30">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    
+                    <div class="text-success fw-bold">
+                    <?= htmlspecialchars($msg); ?>
+                    </div>
+
+                    <div class="modal-content cs_modal">
+                        <div class="modal-header justify-content-center theme_bg_1">
+                            <h5 class="modal-title text_white">Create project</h5>
+                        </div>
+                        <div class="modal-body">
+                            <form action="" method="POST">
+                                <div class>
+                                    <input  type="text" class="form-control"name="Project_name" <?= htmlspecialchars($_POST['Project_name'] ?? ''); ?> id="inputAddress" placeholder="Project name" required>
+                                </div>
+                                <div class>
+                                    <input  type="text" class="form-control"name="Category" <?= htmlspecialchars($_POST['Category'] ?? ''); ?> placeholder="Category" required>
+                                </div>
+                                <div class>
+                                    <input  type="file" class="form-control"name="image" <?= htmlspecialchars($_POST['image'] ?? ''); ?> id="inputAddress" placeholder="image" required>
+                                </div>
+                                <button type="submit" name="submit" class="btn_1 col-4 text-center">Add project</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
 <?php

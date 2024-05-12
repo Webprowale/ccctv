@@ -134,25 +134,25 @@
                             <p class="mb-1-9 text-white opacity8">The company has been in existence since 2019 and duly recognized as a company under the Coperate Affairs Commission with registration number RC-7201088.We have competent engineers who have been trained to carry out their tasks diligently nationwide.</p>
                             <div class="progress-text text-white">
                                 <div class="row">
-                                    <div class="col-10"><strong>First Phase</strong></div>
-                                    <div class="col-2 text-end">85%</div>
+                                    <div class="col-10"><strong>CCTV IP camera installation/ maintenance.</strong></div>
+                                    <div class="col-2 text-end">95%</div>
                                 </div>
                             </div>
                             <div class="custom-progress progress ">
-                                <div class="custom-bar progress-bar slideInLeft" style="width:85%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="85" role="progressbar"></div>
+                                <div class="custom-bar progress-bar slideInLeft" style="width:85%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="95" role="progressbar"></div>
                             </div>
                             <div class="progress-text text-white">
                                 <div class="row">
-                                    <div class="col-10"><strong>Second Phase</strong></div>
-                                    <div class="col-2 text-end">50%</div>
+                                    <div class="col-10"><strong>Solar system installation.</strong></div>
+                                    <div class="col-2 text-end">76%</div>
                                 </div>
                             </div>
                             <div class="custom-progress progress ">
-                                <div class="custom-bar progress-bar slideInLeft" style="width:50%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="50" role="progressbar"></div>
+                                <div class="custom-bar progress-bar slideInLeft" style="width:50%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="75" role="progressbar"></div>
                             </div>
                             <div class="progress-text text-white">
                                 <div class="row">
-                                    <div class="col-10"><strong>Third Phase</strong></div>
+                                    <div class="col-10"><strong>Fire alarm system installation</strong></div>
                                     <div class="col-2 text-end">70%</div>
                                 </div>
                             </div>
@@ -248,7 +248,7 @@
 
         <!-- TESTIMONIAL
         ================================================== -->
-        <section>
+        <section id="testimonial">
             <div>
                 <div class="section-heading">
                     <span>Testimonial</span>
@@ -260,14 +260,14 @@
                             <?php include("./read/testimony.php") ?>
                         </div>
                         <div class="owl-thumbs text-center mt-2-3" data-slider-id="1">
-                            <button class="owl-thumb-item rounded-circle w-60px me-2">
-                                <img src="img/avatar/avatar-06.jpg" class="rounded-circle" alt="Author Image">
+                        <button class="owl-thumb-item rounded-circle w-60px me-2">
+                                <img src="img/images/about_3.jpeg"  class="rounded-circle" alt="Author Image">
                             </button>
                             <button class="owl-thumb-item rounded-circle w-60px me-2">
-                                <img src="img/avatar/avatar-07.jpg" class="rounded-circle" alt="Author Image">
+                                <img src="img/images/ceo.jpeg"  class="rounded-circle" alt="Author Image">
                             </button>
-                            <button class="owl-thumb-item rounded-circle w-60px Testimonial Button active">
-                                <img src="img/avatar/avatar-08.jpg" class="rounded-circle" alt="Author Image">
+                            <button class="owl-thumb-item rounded-circle w-60px me-2">
+                                <img src="img/images/about_3.jpeg"  class="rounded-circle" alt="Author Image">
                             </button>
                         </div>
                     </div>

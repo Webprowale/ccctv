@@ -39,9 +39,9 @@ if (isset($_POST['submit'])) {
     $sql = "UPDATE testimonials SET name='$name', role='$role', content='$content' WHERE id='$id'";
 
     if (mysqli_query($conn, $sql)) {
-        $msg = "Testimonials inserted into the database";
+        $msg = "Testimonials iUpdated";
     } else {
-        $msg = "Failed to add Testimonials";
+        $msg = "Failed Update Testimonials";
     }
 }
 
@@ -71,6 +71,7 @@ mysqli_close($conn);
 <div class="card-body">
 <form method="POST" enctype="multipart/form-data">
 <div class="mb-3">
+<input  type="hidden" name="id" value="<?php echo $row['id']; ?>">
 <input type="text" class="form-control" name="name" value="<?php echo $row['name']; ?>" <?= htmlspecialchars($_POST['name'] ?? ''); ?> id="inputAddress" placeholder="name">
 </div>
 <div class="mb-3">

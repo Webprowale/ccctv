@@ -1,8 +1,8 @@
 <?php
 
     while ($row = mysqli_fetch_assoc($results)) {
-        echo '<div class="overflow-hidden img-card wow fadeIn" data-wow-delay="100ms">';
-        echo '<img src="./admin/image' . $row['image'] . '" class="rounded-top-md-5px" alt="' . $row['title'] . '">';
+        echo '<div class="overflow-hidden img-card wow fadeIn pt-3" data-wow-delay="100ms">';
+        echo '<img src="./admin/image/' . $row['image'] . '" class="rounded-top-md-5px" alt="' . $row['title'] . '"/>';
         echo '</div>';
         echo '<div class="card-body p-1-6 p-lg-2-6">';
         echo '<ul class="entry-meta wow fadeIn ps-0" data-wow-delay="100ms">';

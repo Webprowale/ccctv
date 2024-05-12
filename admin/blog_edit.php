@@ -84,13 +84,14 @@ mysqli_close($conn);
 <div class="main_content_iner ">
 <div class="container-fluid p-0 sm_padding_15px">
     <form method="POST" enctype="multipart/form-data">
-    <h4 class="text-center"><?= htmlspecialchars($msg); ?></h4>
-<div class="row justify-content-center">
-<div class="col-lg-6">
+    
+<div class="row justify-content-center white_card">
+<div class="col-lg-12">
 <div class="white_card card_height_100 mb_30">
 <div class="white_card_header">
 <div class="box_header m-0">
 <div class="main-title">
+<h4 class="text-center"><?= htmlspecialchars($msg); ?></h4>
 <h3 class="m-0">Title</h3>
 
 </div>
@@ -103,7 +104,7 @@ mysqli_close($conn);
 </div>
 </div>
 </div>
-<div class="col-lg-6">
+<div class="col-lg-12">
 <div class="white_card card_height_100 mb_30">
 <div class="white_card_header">
 <div class="box_header m-0">
@@ -128,8 +129,6 @@ mysqli_close($conn);
 </div>
 </div>
 <div class="white_card_body">
-    
-<h6 class="card-subtitle mb-2">max. content 255</h6>
 <input type="file" class="form-control" maxlength="255" name="image" value="<?php echo $row['image']; ?>" <?= htmlspecialchars($_POST['image'] ?? ''); ?> id="maxlength-all-options" placeholder="Enter text">
 </div>
 </div>
@@ -146,8 +145,12 @@ mysqli_close($conn);
 </div>
 <div class="white_card_body">
 <h6 class="card-subtitle mb-2">All your full content goes here</h6>
-<textarea class="form-control"  rows="3"name="body" value="<?php echo $row['body']; ?>"  <?= htmlspecialchars($_POST['body'] ?? ''); ?> id="maxlength-textarea" placeholder="Enter text"></textarea>
-<button type="submit" name="submit" class="btn btn-primary mt-5">Create blog</button>
+<textarea class="form-control"  rows="3"name="body"   <?= htmlspecialchars($_POST['body'] ?? ''); ?> id="maxlength-textarea" placeholder="Enter text"><?php echo $row['body']; ?></textarea>
+<div class="col-12 mt-5">
+<div class="create_report_btn mt_30">
+<button href="#" type="submit" name="submit" class="btn_1 radius_btn d-block text-center">Updade blog</button>
+</div>
+</div>
 </div>
 
 

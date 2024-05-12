@@ -23,20 +23,23 @@ $carry = mysqli_query($conn, "SELECT * FROM blog ORDER BY id DESC");
 <div class="page_title_box d-flex flex-wrap align-items-center justify-content-between">
 <div class="page_title_left d-flex align-items-center">
 <h3 class="f_s_25 f_w_700 dark_text mr_30">Blog list</h3>
+
+</div>
+<div class="page_title_right">
+<div class="page_date_button d-flex align-items-center">
 <ol class="breadcrumb page_bradcam mb-0">
 <li class="breadcrumb-item"><a href="index.php">Home</a></li>
 <li class="breadcrumb-item active">list</li>
 </ol>
 </div>
-<div class="page_title_right">
-<div class="page_date_button d-flex align-items-center">
-<img src="img/icon/calender_icon.svg" alt>
-August 1, 2020 - August 31, 2020
 </div>
 </div>
 </div>
 </div>
 </div>
+
+
+
 <div class="row">
 <div class="col-lg-12">
 <div class="white_card card_height_100 mb_30 pt-4">
@@ -44,21 +47,7 @@ August 1, 2020 - August 31, 2020
 <div class="QA_section">
 <div class="white_box_tittle list_header">
 <h4>Blog List </h4>
-<div class="box_right d-flex lms_block">
-<div class="serach_field_2">
-<div class="search_inner">
-<form Active="#">
-<div class="search_field">
-<input type="text" placeholder="Search content here...">
-</div>
-<button type="submit"> <i class="ti-search"></i> </button>
-</form>
-</div>
-</div>
-<div class="add_button ms-2">
-<a href="#" data-toggle="modal" data-target="#addcategory" class="btn_1">search</a>
-</div>
-</div>
+
 </div>
 <div class="QA_table mb_30">
 

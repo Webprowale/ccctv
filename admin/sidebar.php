@@ -26,7 +26,7 @@
 <img src="img/menu-icon/dashboard.svg" alt>
 </div>
 <div class="nav_title">
-<span>Home</span>
+<span>Official Website</span>
 </div>
 </a>
 </li>
@@ -127,19 +127,6 @@
 </ul>
 </li>
 
-<li class>
-<a class="has-arrow" href="#" aria-expanded="false">
-<div class="nav_icon_small">
-<img src="img/menu-icon/11.svg" alt>
-</div>
-<div class="nav_title">
-<span>Setting</span>
-</div>
-</a>
-<ul>
-<li><a href="logo.php">Add logo</a></li>
 
-</ul>
-</li>
 
 </nav>
