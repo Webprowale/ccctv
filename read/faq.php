@@ -6,12 +6,12 @@ $result = mysqli_query($conn, $query);
 if ($result) {
     while ($row = mysqli_fetch_assoc($result)) {
         echo '<div class="card">';
-        echo '<h2 class="card-header" id="headingOne">';
-        echo '<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">';
+        echo '<h2 class="card-header" id="heading' . $row['id'] . '">';
+        echo '<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse' . $row['id'] . '" aria-expanded="true" aria-controls="collapse' . $row['id'] . '">';
         echo $row['heading'];
         echo '</button>';
         echo '</h2>';
-        echo '<div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordion">';
+        echo '<div id="collapse' . $row['id'] . '" class="accordion-collapse collapse" aria-labelledby="heading' . $row['id'] . '" data-bs-parent="#accordion">';
         echo '<div class="card-body">';
         echo $row['fullWord'];
         echo '</div>';

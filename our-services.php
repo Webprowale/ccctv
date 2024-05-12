@@ -23,26 +23,23 @@
             <div class="page-title-round ani-move"></div>
         </section>
 
-        <!-- faq
+    <!-- SERVICES
         ================================================== -->
         <section>
             <div class="container">
-                <div class="row mt-n1-9">
-                    <div class="col-lg-6 wow fadeIn mt-1-9" data-wow-delay="100ms">
-                        <div class="accordion style1 pe-xl-1-9" id="accordion">
-                           <?php include("./read/faq.service.php") ?>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 wow fadeIn mt-1-9" data-wow-delay="200ms">
-                        <div class="ps-xl-1-9">
-                            <img src="img/content/faq.jpg" alt="...">
-                        </div>
-                    </div>
+                <div class="section-heading">
+                    <span>Our Services</span>
+                    <h2 class="h1">Check our awesome services</h2>
+                </div>
+                <div class="row g-xxl-5 mt-n2-9">
+                    
+                       <?php include("./read/service.main.php") ?>
+                    
                 </div>
             </div>
         </section>
 
-        <!-- extra
+            <!-- extra
         ================================================== -->
         <section class="pt-0 mt-n7 bg-transparent d-none d-xl-block">
             <div class="container">
@@ -104,18 +101,21 @@
             </div>
         </section>
 
-        <!-- SERVICES
+        <!-- faq
         ================================================== -->
         <section>
             <div class="container">
-                <div class="section-heading">
-                    <span>Our Services</span>
-                    <h2 class="h1">Check our awesome services</h2>
-                </div>
-                <div class="row g-xxl-5 mt-n2-9">
-                    
-                       <?php include("./read/service.main.php") ?>
-                    
+                <div class="row mt-n1-9">
+                    <div class="col-lg-6 wow fadeIn mt-1-9" data-wow-delay="100ms">
+                        <div class="accordion style1 pe-xl-1-9" id="accordion">
+                           <?php include("./read/faq.service.php") ?>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeIn mt-1-9" data-wow-delay="200ms">
+                        <div class="ps-xl-1-9">
+                            <img src="img/content/faq.jpg" alt="...">
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -166,101 +166,7 @@
             </div>
         </section>
 
-        <!-- PRICING
-        ================================================== -->
-        <section>
-            <div class="container">
-                <div class="section-heading">
-                    <span>Pricing Plans</span>
-                    <h2 class="h1">Check our great products pricing plans</h2>
-                </div>
-                <div class="row mt-n1-9">
-                    <div class="col-md-6 col-lg-4 mt-1-9 wow fadeIn" data-wow-delay="100ms">
-                        <div class="card card-style3">
-                            <div class="position-relative">
-                                <div class="card-header">
-                                    <img src="img/icons/icon-05.png" class="mb-3" alt="...">
-                                    <h4 class="mb-0">Commercial Service</h4>
-                                </div>
-                                <div class="d-flex justify-content-between">
-                                    <div class="card-price">
-                                        <h3 class="display-13 mb-0"><span class="display-25">$</span>59</h3>
-                                    </div>
-                                    <div class="card-month">
-
-                                        <span>Monthly</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card-body pt-8 pb-1-9 px-1-9">
-                                <ul class="list-style1">
-                                    <li>Monthly Inspec</li>
-                                    <li>Remote Adminis</li>
-                                    <li>General Repair</li>
-                                    <li class="opacity6">Fixing Faulty Ring</li>
-                                    <li class="opacity6">24/7 Support</li>
-                                </ul> <a href="./contact.php" class="butn mt-1-9">Buy Now</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 mt-1-9 wow fadeIn" data-wow-delay="150ms">
-                        <div class="card card-style3 border-radius-5">
-                            <div class="position-relative">
-                                <div class="card-header bg-dark border-color-light-white">
-                                    <img src="img/icons/icon-06.png" class="mb-3" alt="...">
-                                    <h4 class="text-white mb-0">Industrial Service</h4>
-                                </div>
-                                <div class="d-flex justify-content-between">
-                                    <div class="card-price">
-                                        <h3 class="display-13 mb-0"><span class="display-25">$</span>199</h3>
-                                    </div>
-                                    <div class="card-month">
-                                        <span>Monthly</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card-body border-none bg-dark pt-8 pb-1-9 px-1-9">
-                                <ul class="list-style1">
-                                    <li>Monthly Inspec</li>
-                                    <li>Remote Adminis</li>
-                                    <li>General Repair</li>
-                                    <li>Fixing Faulty Ring</li>
-                                    <li>24/7 Support</li>
-                                </ul>
-                                <a href="./contact.php" class="butn mt-1-9">Buy Now</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 mt-1-9 wow fadeIn" data-wow-delay="200ms">
-                        <div class="card card-style3">
-                            <div class="position-relative">
-                                <div class="card-header">
-                                    <img src="img/icons/icon-07.png" class="mb-3" alt="...">
-                                    <h4 class="mb-0">Residential Service</h4>
-                                </div>
-                                <div class="d-flex justify-content-between">
-                                    <div class="card-price">
-                                        <h3 class="display-13 mb-0"><span class="display-25">$</span>99</h3>
-                                    </div>
-                                    <div class="card-month">
-                                        <span>Monthly</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card-body pt-8 pb-1-9 px-1-9">
-                                <ul class="list-style1">
-                                    <li>Monthly Inspec</li>
-                                    <li>Remote Adminis</li>
-                                    <li>General Repair</li>
-                                    <li>Fixing Faulty Ring</li>
-                                    <li class="opacity6">24/7 Support</li>
-                                </ul> <a href="./contact.php" class="butn mt-1-9">Buy Now</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+       
 <!-- FOOTER
         ================================================== -->
         <?php require "./footer.php"; ?>

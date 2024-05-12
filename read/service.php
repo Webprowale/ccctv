@@ -1,6 +1,6 @@
 <?php
 include("./admin/config.php");
-$query = "SELECT * FROM servce";
+$query = "SELECT * FROM servce ORDER BY id DESC LIMIT 4";
 $result = mysqli_query($conn, $query);
 
 if ($result) {
@@ -22,3 +22,5 @@ if ($result) {
 }
 mysqli_close($conn);
 ?>
+
+

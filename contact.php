@@ -175,22 +175,7 @@ require "./header.php";
                                     </div>
                                     <!-- End Textarea element -->
 
-                                    <!-- Begin Captcha element -->
-                                    <!-- <div class="col-md-12">
-                                        <div class="form-group">
-                                            <div class="quform-input">
-                                                <input class="form-control" id="type_the_word" type="text" name="type_the_word" placeholder="Type the below word">
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <div class="quform-captcha">
-                                                <div class="quform-captcha-inner">
-                                                    <img src="quform/images/captcha/courier-new-light.png" alt="...">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div> -->
-                                    <!-- End Captcha element -->
+                                   
 
                                     <!-- Begin Submit button -->
                                     <div class="col-md-12">
@@ -214,11 +199,9 @@ require "./header.php";
 
 <!-- MAP
         ================================================== -->
-<div>
-    <iframe class="map-h500 position-relative map-navigation" id="gmap_canvas" src="https://maps.google.com/maps?q=london&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed"></iframe>
+<div>        
+<iframe class="map-h500 position-relative map-navigation" id="gmap_canvas"  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3956.5671131137487!2d3.8655190740869045!3d7.402303012329507!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10398d21aad2e8c1%3A0x326b98b4d52b7ac0!2sEleyele%20Road%2C%20Jericho%2C%20Ibadan%20200284%2C%20Oyo!5e0!3m2!1sen!2sng!4v1715514760227!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
-
-
 <!-- FOOTER
         ================================================== -->
 <?php require "./footer.php"; ?>

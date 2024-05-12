@@ -1,6 +1,6 @@
 <footer class="bg-dark">
             <div class="container py-6 py-lg-8">
-                <div class="row mt-n2-9">
+                <div class="row mt-n2-9 justify-content-between">
                     <div class="col-md-6 col-lg-5 mt-2-9 wow fadeIn" data-wow-delay="100ms">
 
                         <div class="footer-logo mb-1-9">
@@ -17,40 +17,8 @@
                         </ul>
 
                     </div>
-                    <div class="col-md-6 col-lg-3 mt-2-9 wow fadeIn" data-wow-delay="150ms">
-                        <h3 class="text-white h5 mb-1-9">Newsletter</h3>
-                        <p class="text-white opacity9">Don’t miss to subscribe to our new feeds.</p>
-                        <form class="form" action=""  method="post" enctype="multipart/form-data">
-
-                            <div class="quform-elements">
-                                <div class="row">
-
-                                    <!-- Begin Text input element -->
-                                    <div class="col-md-12">
-                                        <div class="quform-element mb-0">
-                                            <div class="quform-input">
-                                                <input class="form-control" id="email_address" type="text" name="email_address" placeholder="Subscribe with us">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- End Text input element -->
-
-                                    <!-- Begin Submit button -->
-                                    <div class="col-md-12">
-                                        <div class="quform-submit-inner">
-                                            <button class="btn btn-white text-white m-0" type="submit"><i class="fas fa-paper-plane"></i></button>
-                                        </div>
-                                        <div class="quform-loading-wrap"><span class="quform-loading"></span></div>
-                                    </div>
-                                    <!-- End Submit button -->
-                                </div>
-
-                            </div>
-
-                        </form>
-                    </div>
-                    <div class="col-md-6 col-lg-3 mt-2-9 offset-lg-1 wow fadeIn" data-wow-delay="200ms">
-                        <h3 class="text-white h5 mb-1-9">Contacts</h3>
+                    <div class="col-md-6 col-lg-3  mt-2-9 offset-lg-1 wow fadeIn" data-wow-delay="200ms">
+                        <h3 class="text-white h5 mb-1-9 ms-5">Contacts</h3>
                         <div class="d-flex mb-1-9">
                             <div class="flex-shrink-0"><img src="img/icons/icon-phone.png" alt="..."></div>
                             <div class="flex-grow-1 ms-3">
