@@ -1,12 +1,5 @@
 <?php
-session_start();
-
-// Check if the user is not logged in
-if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
-    // Redirect the user to the login page
-    header("location: login.php");
-    exit;
-}
+require "session_check.php";
 include "header.php";
 include "sidebar.php";
 include "navbar.php";
@@ -130,11 +123,11 @@ mysqli_close($conn);
 </div>
 <div class="white_card_body">
 <h6 class="card-subtitle mb-2">All your full content goes here</h6>
-<textarea class="form-control"  rows="3" name="body" <?= htmlspecialchars($_POST['body'] ?? ''); ?> id="maxlength-textarea" placeholder="Enter text" id="summernote"></textarea>
+<textarea class="form-control" id="summernote"  rows="3" name="body" <?= htmlspecialchars($_POST['body'] ?? ''); ?> id="maxlength-textarea" placeholder="Enter text" id="summernote"></textarea>
 
 <div class="col-12 mt-5">
 <div class="create_report_btn mt_30">
-<button href="#" type="submit" name="submit" class="btn_1 radius_btn d-block text-center">Create blog</button>
+<button href="#" type="submit" name="submit" class="btn_1 btn d-block text-center border-0" style="background-color: #FF5F00;">Create blog</button>
 </div>
 </div>
 </div>

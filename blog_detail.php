@@ -46,14 +46,7 @@ mysqli_close($conn);
                         <article class="card card-style5 border-color-extra-light-gray border-radius-5">
                             <?php include("./read/blog.id.php") ?>
                         </article>
-                        <div class="page-navigation mb-6 wow fadeIn mt-2-9" data-wow-delay="100ms">
-                            <div class="next-page">
-                                <div class="page-info"><a href="about.php#testimonial">
-                                        <div class="next-link-page-info">
-                                            <h4 class="next-title">Here's what people are saying about us</h4><span class="date-details"><span class="create-date">January 20, 2023</span></span>
-                                        </div><span class="image-next image_exist"><img src="img/blog/next-blog.jpg" alt="..."></span>
-                                    </a></div>
-                            </div>
+                       
                         </div>
                        
                       

@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <meta name="keywords" content="CCTV & Security " />
     <meta name="description" content="CCTV" />
-    <title>Neyo and Tee Tech || <?php echo isset($pageTitle) ? $pageTitle : "Welcome to IT Company"  ?></title>
+    <title>Neyo & Tee Tech || <?php echo isset($pageTitle) ? $pageTitle : "Welcome to IT Company"  ?></title>
     <link rel="shortcut icon" href="img/logos/favicon.png" />
     <link rel="apple-touch-icon" href="img/logos/touch.png" />
     <link rel="apple-touch-icon" sizes="72x72" href="img/logos/Neyoo.png" />

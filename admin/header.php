@@ -6,8 +6,8 @@
 
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-<title>Management Admin</title>
-<link rel="icon" href="img/mini_logo.png" type="image/png">
+<title>Official Admin</title>
+<link rel="icon" href="image/ico.png" type="image/png">
 
 <link rel="stylesheet" href="css/bootstrap1.min.css" />
 

@@ -1,5 +1,5 @@
 <?php
-$pageTitle = "Home";
+$pageTitle = "Official Website";
 require "./header.php";
 ?>
 <!-- BANNER
@@ -261,21 +261,20 @@ require "./header.php";
                     </div>
                 </div>
             </div>
-            <div class="col-lg-5 wow fadeIn" data-wow-delay="400ms">
-                <div class="ps-xxl-6 position-relative">
-                    <div class="owl-thumbs text-center testimonial-img" data-slider-id="1">
-                       
-                        <button class="owl-thumb-item ms-lg-auto img-2">
-                            <img src="img/images/ceo.jpeg" width="200" class="img-radius2" alt="Author Image">
-                        </button>
-                        <button class="owl-thumb-item me-lg-auto ms-lg-6 img-3">
-                            <img src="img/images/about_3.jpeg" width="200" class="img-radius3" alt="Author Image">
-                        </button>
+            
+        
+        <div class="col-lg-5 wow fadeIn" data-wow-delay="400ms">
+                        <div class="ps-xxl-6 position-relative">
+                            <div class="owl-thumbs text-center testimonial-img" data-slider-id="1">
+                            <button class="owl-thumb-item me-lg-auto d-none"><img src="img/avatar/avatar-08.jpg" class="img-radius1" alt="..."></button>
+                                <button class="owl-thumb-item me-lg-auto ms-lg-6 img-3"><img src="img/avatar/avatar-2.jpg" class="img-radius3"  alt="..." width="200"></button>
+                                <button class="owl-thumb-item ms-lg-auto img-2"><img src="img/avatar/avatar-1.jpg" class="img-radius4" alt="..." width="200"></button>
+                                <button class="owl-thumb-item me-lg-auto img-4"><img src="img/avatar/avatar-3.jpg" class="img-radius5" alt="..." width="300"></button>
+                            </div>
+                            <div class="square-shape top-35 left-25 z-index-9"></div>
+                            <div class="square-shape-two bottom-20 left-35 z-index-9"></div>
+                        </div>
                     </div>
-                    <div class="square-shape top-35 left-25 z-index-9"></div>
-                    <div class="square-shape-two bottom-20 left-35 z-index-9"></div>
-                </div>
-            </div>
         </div>
     </div>
 </section>

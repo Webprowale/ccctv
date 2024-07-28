@@ -1,4 +1,5 @@
 <?php
+require "session_check.php";
 include("config.php");
 include "header.php";
 include "sidebar.php";
@@ -6,21 +7,24 @@ include "navbar.php";
 ?>
 
 <div class="main_content_iner overly_inner ">
-<div class="container-fluid p-0 ">
-
-<div class="row">
-<div class="col-12">
-<div class="page_title_box d-flex flex-wrap align-items-center justify-content-between">
-<div class="page_title_left d-flex align-items-center">
-<h3 class="f_s_25 f_w_700 dark_text mr_30">Create Testimonial </h3>
-<ol class="breadcrumb page_bradcam mb-0">
-<li class="breadcrumb-item"><a href="index.php">Home</a></li>
-<li class="breadcrumb-item active">Testimonial</li>
-</ol>
-</div>
-</div>
-</div>
-</div>
+    <div class="container-fluid p-0 ">
+        <div class="row">
+            <div class="col-12">
+                <div class="page_title_box d-flex flex-wrap align-items-center justify-content-between">
+                    <div class="page_title_left d-flex align-items-center">
+                        <h3 class="f_s_25 f_w_700 dark_text mr_30">Edit testimonial</h3>
+                    </div>
+                    <div class="page_title_right">
+                        <div class="page_date_button d-flex align-items-center">
+                            <ol class="breadcrumb page_bradcam mb-0">
+                                <li class="breadcrumb-item"><a href="index.php">Home</a></li>
+                                <li class="breadcrumb-item active">Testimonial</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
 <?php
@@ -39,7 +43,7 @@ if (isset($_POST['submit'])) {
     $sql = "UPDATE testimonials SET name='$name', role='$role', content='$content' WHERE id='$id'";
 
     if (mysqli_query($conn, $sql)) {
-        $msg = "Testimonials iUpdated";
+        $msg = "Testimonials Updated";
     } else {
         $msg = "Failed Update Testimonials";
     }
@@ -81,7 +85,7 @@ mysqli_close($conn);
 <input type="text" class="form-control" name="content" value="<?php echo $row['content']; ?>" <?= htmlspecialchars($_POST['content'] ?? ''); ?> id="inputAddress" placeholder="content">
 </div>
 
-<button type="submit" name="submit" class="btn btn-primary">Add Testimonial</button>
+<button type="submit" name="submit" class="btn border text-white" style="background-color: #FF5F00;">Add Testimonial</button>
 </form>
 </div>
 </div>

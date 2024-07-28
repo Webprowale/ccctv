@@ -1,14 +1,9 @@
 <?php
+require "session_check.php";
 include "header.php";
 include "sidebar.php";
-session_start();
+  exit;
 
-// Check if the user is not logged in
-if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
-    // Redirect the user to the login page
-    header("location: login.php");
-    exit;
-}
 ?>
 
 <section class="main_content dashboard_part large_header_bg">

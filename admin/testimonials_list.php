@@ -1,16 +1,10 @@
 <?php
+require "session_check.php";
 include "config.php";
 include "header.php";
 include "sidebar.php";
 include "navbar.php";
 
-if(isset($_GET['delete_id'])) {
-    $delete_id = $_GET['delete_id'];
-    $sql_delete = "DELETE FROM testimonials WHERE id = $delete_id";
-    mysqli_query($conn, $sql_delete);
-    header("Location:testimonials_list.php");
-    exit;
-}
 
 $carry = mysqli_query($conn, "SELECT * FROM testimonials");
 
@@ -21,6 +15,25 @@ mysqli_close($conn);
 
 
    
+<div class="main_content_iner overly_inner ">
+    <div class="container-fluid p-0 ">
+        <div class="row">
+            <div class="col-12">
+                <div class="page_title_box d-flex flex-wrap align-items-center justify-content-between">
+                    <div class="page_title_left d-flex align-items-center">
+                        <h3 class="f_s_25 f_w_700 dark_text mr_30">Testimonial list</h3>
+                    </div>
+                    <div class="page_title_right">
+                        <div class="page_date_button d-flex align-items-center">
+                            <ol class="breadcrumb page_bradcam mb-0">
+                                <li class="breadcrumb-item"><a href="index.php">Home</a></li>
+                                <li class="breadcrumb-item active">testimonial</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 <div class="row">
 <div class="col-lg-12">
@@ -28,7 +41,7 @@ mysqli_close($conn);
 <div class="white_card_body">
 <div class="QA_section">
 <div class="white_box_tittle list_header">
-<h4>Service List </h4>
+<h4>Testimonial List </h4>
 <div class="box_right d-flex lms_block">
 <div class="serach_field_2">
 <div class="search_inner">
@@ -63,7 +76,7 @@ mysqli_close($conn);
 <td>
 <div class="action_btns d-flex">
                             <a href="testimonial_edit.php?id=<?php echo $row['id']; ?>" class="action_btn mr_10 edit_btn"> <i class="far fa-edit"></i> </a>
-                            <a href="testimonials_list.php?delete_id=<?php echo $row['id']; ?>" onclick="return confirm('Are you sure you want to delete this record?');" class="action_btn delete_btn" > <i class="fas fa-trash"></i> </a>
+                            <a href="delete.php?id=<?= $row['id']; ?>&table=testimonials" onclick="return confirm('Are you sure you want to delete this record?');" class="action_btn delete_btn" > <i class="fas fa-trash"></i> </a>
                         </div>
 </td>
 </tr>

@@ -1,22 +1,10 @@
 
 <?php
-session_start();
-if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
-    // Redirect the user to the login page
-    header("location: login.php");
-    exit;
-}
+require "session_check.php";
 include "config.php";
 include "header.php";
 include "sidebar.php";
 include "navbar.php";
-if(isset($_GET['delete_id'])) {
-    $delete_id = $_GET['delete_id'];
-    $sql_delete = "DELETE FROM testimonials WHERE id = $delete_id";
-    mysqli_query($conn, $sql_delete);
-    header("Location:testimonials_list.php");
-    exit;
-}
 
 // Check if the user is not logged in
 
@@ -31,6 +19,25 @@ mysqli_close($conn);
 ?>
 
 
+<div class="main_content_iner overly_inner ">
+    <div class="container-fluid p-0 ">
+        <div class="row">
+            <div class="col-12">
+                <div class="page_title_box d-flex flex-wrap align-items-center justify-content-between">
+                    <div class="page_title_left d-flex align-items-center">
+                        <h3 class="f_s_25 f_w_700 dark_text mr_30">Project list</h3>
+                    </div>
+                    <div class="page_title_right">
+                        <div class="page_date_button d-flex align-items-center">
+                            <ol class="breadcrumb page_bradcam mb-0">
+                                <li class="breadcrumb-item"><a href="index.php">Home</a></li>
+                                <li class="breadcrumb-item active">project</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     
  
 
@@ -75,7 +82,7 @@ mysqli_close($conn);
 <td>
 <div class="action_btns d-flex">
                             <a href="project_edit.php?id=<?php echo $row['id']; ?>" class="action_btn mr_10 edit_btn"> <i class="far fa-edit"></i> </a>
-                            <a href="project_list.php?delete_id=<?php echo $row['id']; ?>" onclick="return confirm('Are you sure you want to delete this record?');" class="action_btn delete_btn" > <i class="fas fa-trash"></i> </a>
+                            <a href="delete.php?id=<?= $row['id']; ?>&table=project" onclick="return confirm('Are you sure you want to delete this record?');" class="action_btn delete_btn" > <i class="fas fa-trash"></i> </a>
                         </div>
 </td>
 </tr>

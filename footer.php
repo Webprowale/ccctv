@@ -17,7 +17,7 @@
                         </ul>
 
                     </div>
-                    <div class="col-md-6 col-lg-3  mt-2-9 offset-lg-1 wow fadeIn" data-wow-delay="200ms">
+                    <div class="col-md-6 col-lg-5  mt-2-9 offset-lg-1 wow fadeIn" data-wow-delay="200ms">
                         <h3 class="text-white h5 mb-1-9 ms-5">Contacts</h3>
                         <div class="d-flex mb-1-9">
                             <div class="flex-shrink-0"><img src="img/icons/icon-phone.png" alt="..."></div>
@@ -39,7 +39,7 @@
             </div>
             <div class="py-4 border-top border-color-light-white">
                 <div class="container">
-                    <p class="text-white mb-0 text-center">&copy; <span class="current-year">2023</span> All rights reserved by <a href="#!" class="text-secondary white-hover font-weight-500">INTELLIC SOLUTIONS</a></p>
+                    <p class="text-white mb-0 text-center">&copy; <span class="current-year">2023</span> All rights reserved by <span class=" text-secondary primary-hover font-weight-500">Neyo & Tee Tech </span></p>
                 </div>
             </div>
         </footer>

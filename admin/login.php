@@ -20,6 +20,7 @@ if (isset($_POST['submit'])) {
             $_SESSION['loggedin'] = true;
             $_SESSION['username'] = $user; // Optionally store username in session
             $_SESSION['success'] = "Login successful";
+            echo "<script>alert('Login successful');</script>";
             header("Location: index.php");
             exit();
         } else {
@@ -38,7 +39,7 @@ if (isset($_POST['submit'])) {
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <title>Management Admin</title>
+    <title>Neyo & Tee Tech || Admin Dashboard </title>
     <link rel="stylesheet" href="css/bootstrap1.min.css" />
     <link rel="stylesheet" href="vendors/themefy_icon/themify-icons.css" />
     <link rel="stylesheet" href="vendors/font_awesome/css/all.min.css" />
@@ -48,22 +49,16 @@ if (isset($_POST['submit'])) {
     <link rel="stylesheet" href="css/colors/default.css" id="colorSkinCSS">
 </head>
 
-<body class="crm_body_bg">
+<body class="bg-white">
 
-    <div class="col-lg-12">
-        <div class="white_box mb_30">
-            <div class="row justify-content-center">
+    <div class="col-lg-12 bg-white">
+        
+            <div class="row justify-content-center p-5">
                 <div class="col-lg-6">
-                    <div class="text-danger fw-bold">
-                        <?php echo isset($_SESSION['error']) ? $_SESSION['error'] : ''; ?>
-                    </div>
-                    <div class="text-success fw-bold">
-                        <?php echo isset($_SESSION['success']) ? $_SESSION['success'] : ''; ?>
-                    </div>
-
-                    <div class="modal-content cs_modal">
-                        <div class="modal-header justify-content-center theme_bg_1">
-                            <h5 class="modal-title text_white">Log in</h5>
+                    <div class="modal-content cs_modal mt-5 shadow rounded">
+                        <div class="modal-header bg-white justify-content-center flex-column">
+                            <img src="../img/logos/logo.png" class="img-fluid">
+                            <h5 class="modal-title fs-1 fw-bold text-black">Admin</h5>
                         </div>
                         <div class="modal-body">
                             <form action="" method="POST">
@@ -73,13 +68,13 @@ if (isset($_POST['submit'])) {
                                 <div class>
                                     <input type="password" name="password" class="form-control" placeholder="Password" value="<?php echo htmlspecialchars($password); ?>">
                                 </div>
-                                <button type="submit" name="submit" class="btn_1 col-4 text-center">Log in</button>
+                                <button type="submit" name="submit" class="btn form-control text-center text-white fs-4 fw-semibold" style="background-color: #FF5F00;">Log in</button>
                             </form>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+        
     </div>
 
 </body>

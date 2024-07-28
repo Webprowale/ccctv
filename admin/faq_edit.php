@@ -1,41 +1,32 @@
 <?php
-session_start();
+require "session_check.php";
 include("config.php");
 include "header.php";
 include "sidebar.php";
 include "navbar.php";
 
 
-// Check if the user is not logged in
-if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
-    // Redirect the user to the login page
-    header("location: login.php");
-    exit;
-}
 ?>
 
 <div class="main_content_iner overly_inner ">
-<div class="container-fluid p-0 ">
-
-<div class="main_content_iner ">
-<div class="container-fluid p-0">
-<div class="row justify-content-center">
-<div class="col-12">
-<div class="dashboard_header mb_50">
-<div class="row">
-<div class="col-lg-6">
-<div class="dashboard_header_title">
-<h3 class="f_s_50 f_w_800 dark_text mr_30">Update FAQ</h3>
-</div>
-</div>
-<div class="col-lg-6">
-<div class="dashboard_breadcam text-end">
-<p><a href="index.php">home</a> <i class="fas fa-caret-right"></i>Update FAQ</p>
-</div>
-</div>
-</div>
-</div>
-</div>
+    <div class="container-fluid p-0 ">
+        <div class="row">
+            <div class="col-12">
+                <div class="page_title_box d-flex flex-wrap align-items-center justify-content-between">
+                    <div class="page_title_left d-flex align-items-center">
+                        <h3 class="f_s_25 f_w_700 dark_text mr_30">Edit FAQ</h3>
+                    </div>
+                    <div class="page_title_right">
+                        <div class="page_date_button d-flex align-items-center">
+                            <ol class="breadcrumb page_bradcam mb-0">
+                                <li class="breadcrumb-item"><a href="index.php">Home</a></li>
+                                <li class="breadcrumb-item active">FAQ</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
 <?php
@@ -79,8 +70,8 @@ mysqli_close($conn);
                     </div>
 
                     <div class="modal-content cs_modal">
-                        <div class="modal-header justify-content-center theme_bg_1">
-                            <h5 class="modal-title text_white">Update FAQ</h5>
+                        <div class="modal-header justify-content-center" style="background-color: #FF5F00;">
+                            <h5 class="modal-title text_white fw-bold">Update FAQ</h5>
                         </div>
                         <div class="modal-body">
                             <form action="" method="POST">
@@ -91,7 +82,7 @@ mysqli_close($conn);
                                 <div class>
                                     <textarea id="comment" name="fullWord" class="form-control" ><?php echo $row['fullWord']; ?></textarea>
                                 </div>
-                                <button type="submit" name="submit" class="btn_1 col-4 text-center">Update FAQ</button>
+                                <button type="submit" name="submit" class="btn_1 btn  col-4 text-center" style="background-color: #FF5F00;">Update FAQ</button>
                             </form>
                         </div>
                     </div>

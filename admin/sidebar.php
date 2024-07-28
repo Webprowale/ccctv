@@ -1,7 +1,7 @@
 <nav class="sidebar">
 <div class="logo d-flex justify-content-between">
-<a class="large_logo fw-bold fs-3" href="index.html">NEYO CCTV</a>
-<a class="small_logo" href="index.html"><img src="img/mini_logo.png" alt></a>
+<a class="large_logo fw-bold fs-3" href="./"><img src="../img/logos/logo.png" class="img-fluid"></a>
+<a class="small_logo" href="index.html"><img  src="image/ico.png" class="img-fluid"></a>
 <div class="sidebar_close_icon d-lg-none">
 <i class="ti-close"></i>
 </div>
@@ -21,7 +21,7 @@
 </li>
 
 <li class>
-<a href="index.php" aria-expanded="false">
+<a href="../index.php" aria-expanded="false">
 <div class="nav_icon_small">
 <img src="img/menu-icon/dashboard.svg" alt>
 </div>
@@ -107,7 +107,7 @@
 </a>
 <ul>
 <li><a href="testimonials.php">Create testimonials</a></li>
-<li><a href="testimonials_list.php">List of testimonials you have</a></li>
+<li><a href="testimonials_list.php">Testimonial list</a></li>
 </ul>
 </li>
 
@@ -123,7 +123,7 @@
 </a>
 <ul>
 <li><a href="services.php">Create services</a></li>
-<li><a href="services_list.php">List of services you have</a></li>
+<li><a href="services_list.php">Service list</a></li>
 </ul>
 </li>
 

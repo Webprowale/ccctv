@@ -5,10 +5,10 @@ $result = mysqli_query($conn, $query);
 
 if ($result) {
     while ($row = mysqli_fetch_assoc($result)) {
-        echo "<div class='col-sm-6 col-lg-3 mt-1-9 wow fadeIn' data-wow-delay='50ms'>";
+        echo "<div class='col-sm-6 col-lg-4 mt-1-9 wow fadeIn' data-wow-delay='50ms'>";
         echo '<div class="card card-style2">';
         echo '<div class="position-relative z-index-9">';
-        echo '<img src="./admin/image/' . $row['image'] . '" alt="...">';
+        echo '<img src="./admin/image/' . $row['image'] . '" alt="..."/>';
         echo '<div class="team-social-icon">';
         echo '<ul class="list-unstyled mb-0">';
         echo '<li><a href="https://' . $row['fb_handle'] . '" target="_blank"><i class="fab fa-facebook-f"></i></a></li>';

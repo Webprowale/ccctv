@@ -53,7 +53,14 @@
 
 <script src="js/dashboard_init.js"></script>
 <script src="js/custom.js"></script>
+<script>
+   $('#summernote').summernote({
+        placeholder: 'Blog Body Goes Here',
+        tabsize: 2,
+        height: 100
+      });
+</script>
 </body>
 
-<!-- Mirrored from demo.dashboardpack.com/user-management-html/index_2.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 06 May 2024 10:40:35 GMT -->
+
 </html>

@@ -1,23 +1,30 @@
 
 <?php
+require "session_check.php";
 include "header.php";
 include "sidebar.php";
 include "navbar.php";
 ?>
 
 <div class="main_content_iner overly_inner ">
-<div class="container-fluid p-0 ">
-
-<div class="row">
-<div class="col-12">
-<div class="page_title_box d-flex flex-wrap align-items-center justify-content-between">
-<div class="page_title_left d-flex align-items-center">
-<h3 class="f_s_25 f_w_700 dark_text mr_30">Add Team Member</h3>
-<ol class="breadcrumb page_bradcam mb-0">
-<li class="breadcrumb-item"><a href="index.php">Home</a></li>
-<li class="breadcrumb-item active">Edit team</li>
-</ol>
-</div>
+    <div class="container-fluid p-0 ">
+        <div class="row">
+            <div class="col-12">
+                <div class="page_title_box d-flex flex-wrap align-items-center justify-content-between">
+                    <div class="page_title_left d-flex align-items-center">
+                        <h3 class="f_s_25 f_w_700 dark_text mr_30">Edit Team</h3>
+                    </div>
+                    <div class="page_title_right">
+                        <div class="page_date_button d-flex align-items-center">
+                            <ol class="breadcrumb page_bradcam mb-0">
+                                <li class="breadcrumb-item"><a href="index.php">Home</a></li>
+                                <li class="breadcrumb-item active">team</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 <?php
 // Establish database connection
@@ -39,23 +46,16 @@ if (isset($_POST['submit'])) {
     $ig_handle = $_POST['ig_handle'];
     $tw_handle = $_POST['tw_handle'];
 
-    // Generate a random number for the image file name
-    $random_number = rand(1000, 9999);
-    $image_extension = pathinfo($_FILES['image']['name'], PATHINFO_EXTENSION);
-    $image_new_name = $random_number . '.' . $image_extension;
+    $img_ext = strtolower(pathinfo($_FILES['image']['name'], PATHINFO_EXTENSION));
+    $img_new_name = time() . '_' . rand(100, 999) . '.' . $img_ext;
 
-    $target_dir = "./image/";
-    $target_file = $target_dir . $image_new_name;
-
-    // Move the uploaded image to the target directory
-    if (move_uploaded_file($_FILES['image']['tmp_name'], $target_file)) {
-        $msg = "File uploaded successfully!";
-    } else {
-        $msg = "Failed to upload file!";
-    }
+    // Upload the image
+    $target_dir = "../admin/image/";
+    $target_file = $target_dir . $img_new_name;
+    if(move_uploaded_file($_FILES['image']['tmp_name'], $target_file)){
 
     // Insert data into the database with the generated random number as image name
-    $sql = "UPDATE team SET name='$name', position='$position',fb_handle='$fb_handle',ig_handle='$ig_handle',tw_handle='$tw_handle' WHERE id='$id'";
+    $sql = "UPDATE team SET name='$name', position='$position', fb_handle='$fb_handle', ig_handle='$ig_handle', tw_handle='$tw_handle', image='$img_new_name' WHERE id='$id'";
 
     if (mysqli_query($conn, $sql)) {
         $msg = "Information updated successfully!";
@@ -63,6 +63,7 @@ if (isset($_POST['submit'])) {
     } else {
         $msg = "Failed to update information!";
     }
+}
 }
 
 $id = $_GET['id'];
@@ -107,7 +108,7 @@ mysqli_close($conn);
 <div class="mb-3">
 <input type="text" class="form-control" name="tw_handle" value="<?php echo $row['tw_handle']; ?>" <?= htmlspecialchars($_POST['tw_handle'] ?? ''); ?> id="inputAddress" placeholder="tw_handle">
 </div>
-<button type="submit" name="submit" class="btn btn-primary">Add to team</button>
+<button type="submit" name="submit" class="btn border-0" style="background-color: #FF5F00;">Add to team</button>
 </form>
 </div>
 </div>

@@ -1,12 +1,12 @@
 <?php
 include("./admin/config.php");
-$query = "SELECT * FROM project";
+$query = "SELECT * FROM project ORDER BY id LIMIT 6";
 $result = mysqli_query($conn, $query);
 
 if ($result) {
     while ($row = mysqli_fetch_assoc($result)) {
         echo '<div class="card card-style4">';
-        echo '<img src="./admin/image/' . $row['image'] .'" alt="...">';
+        echo '<img src="./admin/image/' . $row['image'] .'" alt="..." style="max-height:400px;"/>';
         echo '<div class="card-body">';
         echo '<div class="portfolio-overlay-info">';
         echo '<h3 class="h4"><a href="./project.php" class="text-white">' . $row['project_name'] . '</a></h3>';

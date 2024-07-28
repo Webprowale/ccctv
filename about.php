@@ -139,25 +139,25 @@
                                 </div>
                             </div>
                             <div class="custom-progress progress ">
-                                <div class="custom-bar progress-bar slideInLeft" style="width:85%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="95" role="progressbar"></div>
+                                <div class="custom-bar progress-bar slideInLeft" style="width:95%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="95" role="progressbar"></div>
                             </div>
                             <div class="progress-text text-white">
                                 <div class="row">
                                     <div class="col-10"><strong>Solar system installation.</strong></div>
-                                    <div class="col-2 text-end">76%</div>
+                                    <div class="col-2 text-end">90%</div>
                                 </div>
                             </div>
                             <div class="custom-progress progress ">
-                                <div class="custom-bar progress-bar slideInLeft" style="width:50%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="75" role="progressbar"></div>
+                                <div class="custom-bar progress-bar slideInLeft" style="width:90%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="90" role="progressbar"></div>
                             </div>
                             <div class="progress-text text-white">
                                 <div class="row">
                                     <div class="col-10"><strong>Fire alarm system installation</strong></div>
-                                    <div class="col-2 text-end">70%</div>
+                                    <div class="col-2 text-end">88%</div>
                                 </div>
                             </div>
                             <div class="custom-progress progress mb-0">
-                                <div class="custom-bar progress-bar slideInLeft" style="width:70%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="70" role="progressbar"></div>
+                                <div class="custom-bar progress-bar slideInLeft" style="width:88%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="88" role="progressbar"></div>
                             </div>
                         </div>
                     </div>
@@ -235,7 +235,7 @@
                     <span>Meet Our Team</span>
                     <h2 class="h1">Meet Our Team Members</h2>
                 </div>
-                <div class="row g-xl-5 mt-n1-9">
+                <div class="row g-xl-5 mt-n1-9 justify-content-center align-items-center">
                     <?php include("./read/team.php") ?>
                     
                     

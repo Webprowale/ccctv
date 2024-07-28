@@ -1,5 +1,6 @@
 
 <?php
+require "session_check.php";
 include "config.php";
 include "header.php";
 include "sidebar.php";
@@ -8,28 +9,29 @@ $carry = mysqli_query($conn, "SELECT * FROM servce");
 
 ?>
 
-<div class="row">
-<div class="col-12">
-<div class="page_title_box d-flex flex-wrap align-items-center justify-content-between">
-<div class="page_title_left d-flex align-items-center">
-<h3 class="f_s_25 f_w_700 dark_text mr_30">Service List</h3>
-</div>
-</div>
-<div class="page_title_right">
-<div class="page_date_button d-flex align-items-center">
-<ol class="breadcrumb page_bradcam mb-0">
-<li class="breadcrumb-item"><a href="index.php">Home</a></li>
-<li class="breadcrumb-item active">Service</li>
-</ol>
-</div>
-</div>
-</div>
-</div>
-</div>
+<div class="main_content_iner overly_inner ">
+    <div class="container-fluid p-0 ">
+        <div class="row">
+            <div class="col-12">
+                <div class="page_title_box d-flex flex-wrap align-items-center justify-content-between">
+                    <div class="page_title_left d-flex align-items-center">
+                        <h3 class="f_s_25 f_w_700 dark_text mr_30">Service list</h3>
+                    </div>
+                    <div class="page_title_right">
+                        <div class="page_date_button d-flex align-items-center">
+                            <ol class="breadcrumb page_bradcam mb-0">
+                                <li class="breadcrumb-item"><a href="index.php">Home</a></li>
+                                <li class="breadcrumb-item active">service</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
 
-<div class="row">
+<div class="row pt-5 mt-5">
 <div class="col-lg-12">
 <div class="white_card card_height_100 mb_30 pt-4">
 <div class="white_card_body">
@@ -69,7 +71,7 @@ $carry = mysqli_query($conn, "SELECT * FROM servce");
 <td>
 <div class="action_btns d-flex">
 <a href="service_edit.php?id=<?php echo $row['id']; ?>" class="action_btn mr_10"> <i class="far fa-edit"></i> </a>
-<a href="#" class="action_btn"> <i class="fas fa-trash"></i> </a>
+<a href="delete.php?id=<?= $row['id']; ?>&table=servce" class="action_btn"> <i class="fas fa-trash"></i> </a>
 </div>
 </td>
 </tr>
